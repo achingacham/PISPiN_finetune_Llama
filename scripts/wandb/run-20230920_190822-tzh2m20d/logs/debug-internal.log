@@ -1,0 +1,1412 @@
+2023-09-20 19:08:22,901 INFO    StreamThr :1017 [internal.py:wandb_internal():86] W&B internal server running at pid: 1017, started at: 2023-09-20 19:08:22.900699
+2023-09-20 19:08:22,903 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status
+2023-09-20 19:08:22,905 INFO    WriterThread:1017 [datastore.py:open_for_write():85] open: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/run-tzh2m20d.wandb
+2023-09-20 19:08:22,907 DEBUG   SenderThread:1017 [sender.py:send():379] send: header
+2023-09-20 19:08:22,908 DEBUG   SenderThread:1017 [sender.py:send():379] send: run
+2023-09-20 19:08:24,372 INFO    SenderThread:1017 [dir_watcher.py:__init__():211] watching files in: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files
+2023-09-20 19:08:24,372 INFO    SenderThread:1017 [sender.py:_start_run_threads():1121] run started: tzh2m20d with start time 1695236902.90202
+2023-09-20 19:08:24,374 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:08:24,375 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:08:24,386 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: check_version
+2023-09-20 19:08:24,387 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: check_version
+2023-09-20 19:08:24,471 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: run_start
+2023-09-20 19:08:24,475 DEBUG   HandlerThread:1017 [system_info.py:__init__():31] System info init
+2023-09-20 19:08:24,475 DEBUG   HandlerThread:1017 [system_info.py:__init__():46] System info init done
+2023-09-20 19:08:24,475 INFO    HandlerThread:1017 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 19:08:24,475 INFO    SystemMonitor:1017 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 19:08:24,475 INFO    HandlerThread:1017 [system_monitor.py:probe():201] Collecting system info
+2023-09-20 19:08:24,476 INFO    SystemMonitor:1017 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 19:08:24,477 INFO    SystemMonitor:1017 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 19:08:24,478 INFO    SystemMonitor:1017 [interfaces.py:start():190] Started gpu monitoring
+2023-09-20 19:08:24,478 INFO    SystemMonitor:1017 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 19:08:24,479 INFO    SystemMonitor:1017 [interfaces.py:start():190] Started network monitoring
+2023-09-20 19:08:24,518 DEBUG   HandlerThread:1017 [system_info.py:probe():195] Probing system
+2023-09-20 19:08:24,522 DEBUG   HandlerThread:1017 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-20 19:08:24,522 DEBUG   HandlerThread:1017 [system_info.py:probe():240] Probing system done
+2023-09-20 19:08:24,522 DEBUG   HandlerThread:1017 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-196-generic-x86_64-with-glibc2.31', 'python': '3.10.4', 'heartbeatAt': '2023-09-20T19:08:24.518864', 'startedAt': '2023-09-20T19:08:22.720250', 'docker': None, 'cuda': None, 'args': ('--dataSetFile', '/projects/SFB_A4/A4-ParaphrasesinNoise/PiN.tsv_NoiseID2_lowPhER_to_highPhER', '-dsFile_iCol', 'low-SI-para', '-dsFile_oCol', 'high-SI-para', '-pPrefix', 'For the given input text, generate an acoustically better intelligible paraphrase with 10-12 words\n###Input:\n', '-pInfix', '\n###Response:\n'), 'state': 'running', 'program': '<python with no main file>', 'host': 'achingacham-11096.0-cl16lx.lsv.uni-saarland.de', 'username': 'achingacham', 'executable': '/data/users/achingacham/anaconda3/envs/llama/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2358.428599999999, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2332.636, 'min': 0.0, 'max': 0.0}, {'current': 2248.918, 'min': 0.0, 'max': 0.0}, {'current': 2249.099, 'min': 0.0, 'max': 0.0}, {'current': 2794.732, 'min': 0.0, 'max': 0.0}, {'current': 2543.801, 'min': 0.0, 'max': 0.0}, {'current': 2330.95, 'min': 0.0, 'max': 0.0}, {'current': 2246.017, 'min': 0.0, 'max': 0.0}, {'current': 2577.97, 'min': 0.0, 'max': 0.0}, {'current': 2249.15, 'min': 0.0, 'max': 0.0}, {'current': 2012.971, 'min': 0.0, 'max': 0.0}, {'current': 2248.579, 'min': 0.0, 'max': 0.0}, {'current': 2363.852, 'min': 0.0, 'max': 0.0}, {'current': 2278.795, 'min': 0.0, 'max': 0.0}, {'current': 2704.686, 'min': 0.0, 'max': 0.0}, {'current': 1811.821, 'min': 0.0, 'max': 0.0}, {'current': 2325.432, 'min': 0.0, 'max': 0.0}, {'current': 2282.048, 'min': 0.0, 'max': 0.0}, {'current': 2407.544, 'min': 0.0, 'max': 0.0}, {'current': 2584.624, 'min': 0.0, 'max': 0.0}, {'current': 1976.455, 'min': 0.0, 'max': 0.0}, {'current': 2791.849, 'min': 0.0, 'max': 0.0}, {'current': 2398.423, 'min': 0.0, 'max': 0.0}, {'current': 2397.778, 'min': 0.0, 'max': 0.0}, {'current': 2507.27, 'min': 0.0, 'max': 0.0}, {'current': 2541.096, 'min': 0.0, 'max': 0.0}, {'current': 2596.915, 'min': 0.0, 'max': 0.0}, {'current': 2441.446, 'min': 0.0, 'max': 0.0}, {'current': 2496.54, 'min': 0.0, 'max': 0.0}, {'current': 2434.392, 'min': 0.0, 'max': 0.0}, {'current': 1908.821, 'min': 0.0, 'max': 0.0}, {'current': 2436.057, 'min': 0.0, 'max': 0.0}, {'current': 1830.612, 'min': 0.0, 'max': 0.0}, {'current': 2467.184, 'min': 0.0, 'max': 0.0}, {'current': 2087.593, 'min': 0.0, 'max': 0.0}, {'current': 1656.716, 'min': 0.0, 'max': 0.0}, {'current': 2448.078, 'min': 0.0, 'max': 0.0}, {'current': 2436.346, 'min': 0.0, 'max': 0.0}, {'current': 2492.718, 'min': 0.0, 'max': 0.0}, {'current': 2618.696, 'min': 0.0, 'max': 0.0}, {'current': 2778.534, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 217.94765090942383, 'used': 118.84527587890625}, 'gpu': 'Tesla V100-PCIE-32GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}], 'memory': {'total': 251.41234588623047}}
+2023-09-20 19:08:24,522 INFO    HandlerThread:1017 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-20 19:08:24,522 INFO    HandlerThread:1017 [system_monitor.py:probe():214] Publishing system info
+2023-09-20 19:08:24,522 DEBUG   HandlerThread:1017 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-20 19:08:24,523 DEBUG   HandlerThread:1017 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-20 19:08:24,524 DEBUG   HandlerThread:1017 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-20 19:08:25,376 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/requirements.txt
+2023-09-20 19:08:25,376 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/conda-environment.yaml
+2023-09-20 19:08:25,376 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:08:30,378 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/conda-environment.yaml
+2023-09-20 19:08:30,431 DEBUG   HandlerThread:1017 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-20 19:08:30,433 INFO    HandlerThread:1017 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-20 19:08:30,437 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:08:30,437 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-20 19:08:30,438 DEBUG   SenderThread:1017 [sender.py:send():379] send: files
+2023-09-20 19:08:30,438 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-20 19:08:30,448 DEBUG   SenderThread:1017 [sender.py:send():379] send: telemetry
+2023-09-20 19:08:30,455 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:08:30,456 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:08:30,714 DEBUG   SenderThread:1017 [sender.py:send():379] send: config
+2023-09-20 19:08:30,716 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:08:30,716 DEBUG   SenderThread:1017 [sender.py:send():379] send: telemetry
+2023-09-20 19:08:30,716 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:08:30,716 WARNING SenderThread:1017 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2023-09-20 19:08:30,959 INFO    wandb-upload_0:1017 [upload_job.py:push():131] Uploaded file /tmp/tmp2g0gzpe5wandb/cgla1bct-wandb-metadata.json
+2023-09-20 19:08:31,379 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-metadata.json
+2023-09-20 19:08:31,380 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:08:33,381 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:08:33,718 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:08:38,719 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:08:41,388 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:08:44,495 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:08:45,447 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:08:45,448 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:08:49,394 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:08:49,730 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:08:54,735 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:08:55,399 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/config.yaml
+2023-09-20 19:08:57,401 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:00,147 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:00,447 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:09:00,448 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:09:05,408 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:05,680 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:10,681 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:15,415 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:15,447 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:09:15,448 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:09:15,689 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:20,689 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:23,422 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:24,479 DEBUG   SystemMonitor:1017 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 19:09:24,481 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:09:25,424 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:25,808 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:26,469 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:09:26,472 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:26,472 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:26,473 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:26,473 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:26,473 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:26,473 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:09:26,473 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:09:26,476 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:09:27,426 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:09:27,427 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:29,428 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:30,447 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:09:30,447 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:09:31,718 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:36,831 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:37,434 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:41,832 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:45,441 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:45,448 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:09:45,448 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:09:47,732 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:53,233 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:53,447 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:09:54,483 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:09:58,490 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:09:59,451 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/config.yaml
+2023-09-20 19:09:59,748 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:09:59,749 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:59,750 DEBUG   SenderThread:1017 [sender.py:send():379] send: metric
+2023-09-20 19:09:59,750 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:09:59,751 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:09:59,752 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:10:00,447 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:10:00,448 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:10:00,452 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:10:01,453 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:04,623 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:09,465 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:09,892 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:14,893 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:15,448 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:10:15,448 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:10:17,474 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:19,476 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:20,032 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:21,364 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:10:21,365 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:10:21,366 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:10:21,368 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:10:21,478 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:10:21,478 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:23,480 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:24,485 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:10:25,486 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:30,448 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:10:30,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:10:30,663 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:31,486 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:31,486 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/config.yaml
+2023-09-20 19:10:35,921 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:39,491 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:41,736 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:45,448 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:10:45,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:10:47,050 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:47,498 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:52,051 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:10:54,489 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:10:55,505 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:10:57,491 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:00,448 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:11:00,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:11:02,716 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:05,512 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:08,026 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:13,126 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:13,519 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:15,448 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:11:15,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:11:15,520 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:16,476 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:11:16,477 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:11:16,478 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:11:16,482 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:11:16,521 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:11:17,522 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:18,483 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:19,524 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:23,484 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:24,489 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:11:25,529 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:28,615 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:30,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:11:30,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:11:32,876 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:11:32,877 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:11:32,878 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:11:32,880 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:11:33,536 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:11:33,536 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:33,880 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:35,538 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:38,881 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:41,543 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:43,924 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:45,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:11:45,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:11:49,240 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:51,551 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:54,241 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:11:54,491 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:11:59,558 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:11:59,730 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:00,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:12:00,449 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:12:05,673 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:07,564 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:09,566 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:10,978 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:11,135 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:12:11,137 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:12:11,138 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:12:11,140 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:12:11,573 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:12:11,573 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:13,574 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:15,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:12:15,450 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:12:16,661 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:21,580 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:22,456 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:24,492 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:12:27,494 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:29,587 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:30,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:12:30,450 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:12:32,696 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:37,594 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:37,706 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:42,707 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:45,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:12:45,450 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:12:45,600 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:48,688 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:53,607 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:12:54,310 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:12:54,494 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:12:59,496 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:00,449 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:13:00,450 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:13:00,580 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:13:00,701 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:13:00,702 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:13:00,703 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:13:01,613 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:13:01,613 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:03,615 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:05,107 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:05,617 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:05,769 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:13:05,770 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:13:05,771 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:13:05,774 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:13:06,618 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:13:07,619 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:10,776 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:15,450 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:13:15,450 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:13:15,625 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:16,691 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:21,691 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:23,632 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:24,496 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:13:27,497 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:30,450 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:13:30,450 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:13:31,638 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:32,690 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:37,691 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:39,645 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:42,798 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:45,450 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:13:45,451 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:13:47,651 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:48,070 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:53,070 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:54,498 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:13:57,659 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:13:58,574 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:13:59,661 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:00,450 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:14:00,451 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:14:00,581 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:14:00,645 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:14:00,645 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:14:00,647 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:14:00,662 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:14:01,663 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:03,648 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:03,665 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:08,649 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:09,670 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:13,906 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:15,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:14:15,451 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:14:17,676 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:19,243 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:24,244 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:24,500 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:14:27,683 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:29,510 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:30,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:14:30,451 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:14:33,832 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:14:33,834 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:14:33,834 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:14:33,836 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:14:34,688 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:14:34,837 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:35,689 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:39,838 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:43,695 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:44,933 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:45,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:14:45,451 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:14:50,408 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:51,701 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:53,703 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:54,501 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:14:55,438 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:14:55,596 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:14:55,597 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:14:55,598 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:14:55,600 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:14:55,705 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:14:55,705 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:14:57,707 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:00,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:15:00,452 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:15:00,824 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:05,713 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:05,918 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:10,919 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:13,719 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:15,452 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:15:15,452 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:15:16,696 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:21,725 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:22,295 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:24,503 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:15:27,504 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:29,731 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:30,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:15:30,452 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:15:32,690 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:37,737 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:37,940 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:42,941 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:45,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:15:45,452 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:15:45,744 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:47,746 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:48,478 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:49,748 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:50,486 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:15:50,488 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:15:50,488 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:15:50,491 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:15:50,749 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:15:51,750 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:53,493 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:53,752 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:15:54,504 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:15:58,506 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:15:59,756 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:00,452 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:16:00,452 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:16:03,727 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:06,912 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:16:06,914 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:16:06,914 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:16:06,916 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:16:07,763 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:16:07,763 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:08,917 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:09,765 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:13,918 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:15,452 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:16:15,452 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:16:15,770 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:19,620 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:23,777 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:24,506 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:16:25,507 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:30,452 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:16:30,453 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:16:30,680 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:33,785 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:36,010 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:41,467 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:41,792 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:43,794 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:45,452 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:16:45,453 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:16:45,551 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:16:45,692 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:16:45,692 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:16:45,694 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:16:45,796 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:16:45,796 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:46,695 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:47,798 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:51,696 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:16:54,508 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:16:55,807 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:16:57,511 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:00,452 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:17:00,453 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:17:02,696 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:03,818 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:07,696 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:11,825 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:13,030 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:15,453 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:17:15,453 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:17:18,547 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:19,833 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:23,548 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:24,510 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:17:27,839 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:28,824 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:30,453 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:17:30,454 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:17:34,683 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:34,873 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:17:34,874 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:17:34,875 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:17:34,877 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:17:35,845 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:17:35,846 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:37,847 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:39,849 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:39,906 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:40,063 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:17:40,065 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:17:40,065 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:17:40,068 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:17:40,853 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:17:41,860 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:45,070 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:45,453 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:17:45,454 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:17:50,638 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:17:53,877 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:17:54,513 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:17:56,515 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:00,454 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:18:00,455 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:18:01,638 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:03,886 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:06,984 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:11,892 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:12,051 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:15,454 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:18:15,455 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:18:17,658 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:19,898 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:23,158 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:24,513 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:18:27,904 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:28,321 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:30,454 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:18:30,455 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:18:33,702 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:35,912 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:37,914 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:39,196 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:39,859 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:18:39,862 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:18:39,863 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:18:39,865 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:18:39,916 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:18:39,916 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:41,918 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:44,867 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:45,454 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:18:45,455 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:18:49,925 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:18:50,325 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:54,515 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:18:55,516 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:18:57,930 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:00,455 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:19:00,456 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:19:00,692 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:05,937 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:06,318 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:11,320 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:13,478 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:19:13,480 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:19:13,480 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:19:13,482 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:19:13,944 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:19:13,944 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:15,454 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:19:15,455 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:19:15,946 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:16,713 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:21,714 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:23,952 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:24,517 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:19:27,518 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:30,455 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:19:30,456 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:19:31,958 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:32,815 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:33,960 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:35,501 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:19:35,503 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:19:35,503 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:19:35,506 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:19:35,962 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:19:35,962 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:37,964 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:38,508 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:43,509 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:43,969 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:45,455 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:19:45,456 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:19:48,750 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:51,980 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:19:54,518 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:19:54,519 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:19:59,520 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:00,456 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:20:00,456 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:20:01,994 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:05,170 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:10,004 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:10,991 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:15,456 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:20:15,456 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:20:16,096 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:18,014 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:21,096 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:24,520 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:20:26,024 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:26,754 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:28,027 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:29,442 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:20:29,443 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:20:29,444 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:20:29,447 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:20:30,029 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:20:30,029 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:30,456 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:20:30,457 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:20:31,923 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:32,033 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:36,924 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:40,043 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:42,125 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:45,456 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:20:45,457 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:20:46,509 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:20:46,511 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:20:46,511 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:20:46,512 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:20:47,052 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:20:47,513 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:48,054 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:52,514 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:20:54,521 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:20:56,063 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:20:57,808 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:00,457 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:21:00,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:21:03,177 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:04,072 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:08,178 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:12,079 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:13,499 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:15,457 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:21:15,457 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:21:18,676 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:22,086 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:23,856 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:24,088 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:24,523 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:21:25,189 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:21:25,190 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:21:25,191 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:21:25,193 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:21:26,090 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:21:26,091 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:28,092 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:29,195 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:30,457 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:21:30,457 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:21:34,097 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:34,292 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:39,294 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:42,104 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:44,574 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:45,457 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:21:45,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:21:49,681 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:21:52,112 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:21:54,525 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:21:55,526 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:00,118 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:00,457 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:22:00,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:22:00,720 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:05,721 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:08,125 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:11,317 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:14,587 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:22:14,589 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:22:14,589 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:22:14,593 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:22:15,130 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:22:15,457 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:22:15,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:22:16,132 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:16,420 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:18,134 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:19,780 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:22:19,782 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:22:19,783 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:22:19,785 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:22:20,136 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:22:20,136 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:21,786 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:22,138 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:24,527 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:22:27,528 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:30,144 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:30,458 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:22:30,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:22:32,708 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:38,151 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:38,359 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:43,360 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:45,458 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:22:45,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:22:46,157 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:48,633 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:53,955 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:22:54,164 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:22:54,528 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:22:59,530 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:00,458 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:23:00,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:23:02,170 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:05,314 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:10,177 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:10,580 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:12,179 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:14,181 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:14,671 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:23:14,673 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:23:14,673 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:23:14,676 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:23:15,181 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:23:15,458 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:23:15,458 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:23:15,706 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:16,183 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:20,707 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:24,189 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:24,530 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:23:26,531 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:30,459 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:23:30,459 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:23:32,154 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:32,195 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:37,156 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:40,201 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:42,605 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:45,459 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:23:45,459 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:23:47,687 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:48,311 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:23:48,312 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:23:48,312 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:23:48,318 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:23:49,214 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:23:50,215 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:53,320 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:23:54,532 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:23:58,223 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:23:58,639 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:00,459 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:24:00,459 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:24:03,673 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:06,230 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:08,231 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:09,326 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:09,988 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:24:09,990 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:24:09,990 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:24:09,993 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:24:10,234 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:24:10,235 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:12,237 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:14,994 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:15,459 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:24:15,459 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:24:19,243 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:20,096 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:24,533 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:24:25,534 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:29,250 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:30,459 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:24:30,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:24:30,701 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:36,583 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:37,256 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:41,584 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:45,263 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:45,459 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:24:45,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:24:46,669 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:52,399 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:24:53,269 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:24:54,535 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:24:57,536 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:00,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:25:00,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:25:01,275 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:02,910 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:03,277 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:04,914 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:25:04,916 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:25:04,917 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:25:04,919 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:25:05,280 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:25:05,280 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:06,281 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:07,283 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:07,921 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:12,922 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:15,289 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:15,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:25:15,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:25:18,717 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:21,685 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:25:21,687 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:25:21,687 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:25:21,688 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:25:22,294 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:25:23,295 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:24,297 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:24,537 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:25:24,540 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:29,539 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:30,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:25:30,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:25:31,302 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:34,671 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:39,309 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:39,958 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:44,959 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:45,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:25:45,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:25:47,315 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:50,054 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:54,539 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:25:55,657 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:25:57,322 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:59,324 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:25:59,739 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:25:59,741 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:25:59,741 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:25:59,744 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:26:00,325 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:26:00,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:26:00,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:26:00,687 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:01,327 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:02,328 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:05,688 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:09,334 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:10,896 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:15,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:26:15,461 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:26:16,120 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:17,340 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:21,121 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:24,540 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:26:26,542 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:27,348 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:30,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:26:30,460 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:26:31,720 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:35,355 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:37,558 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:43,093 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:43,362 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:45,460 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:26:45,461 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:26:48,686 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:49,397 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:26:49,398 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:26:49,398 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:26:49,400 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:26:50,368 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:26:51,370 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:52,371 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:53,372 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:53,888 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:26:54,542 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:26:54,549 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:26:54,550 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:26:54,551 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:26:54,553 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:26:55,376 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:26:55,376 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:56,378 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:57,381 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:26:59,555 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:00,461 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:27:00,461 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:27:04,749 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:09,392 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:10,021 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:15,023 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:15,461 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:27:15,461 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:27:17,398 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:20,344 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:24,569 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:27:26,028 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:27,405 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:30,461 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:27:30,461 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:27:31,700 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:35,412 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:37,149 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:42,429 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:43,418 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:45,461 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:27:45,462 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:27:47,660 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:51,424 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:52,928 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:27:53,426 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:54,545 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:27:54,939 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:27:54,940 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:27:54,941 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:27:54,943 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:27:55,428 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:27:55,428 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:56,429 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:57,431 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:27:57,945 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:00,462 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:28:00,462 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:28:03,061 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:05,438 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:08,062 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:13,177 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:13,444 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:15,462 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:28:15,462 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:28:18,717 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:21,450 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:24,547 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:28:24,548 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:28,052 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:28:28,053 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:28:28,054 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:28:28,057 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:28:28,454 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:28:29,456 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:30,058 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:30,457 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:30,462 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:28:30,462 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:28:35,658 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:37,463 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:41,389 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:45,462 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:28:45,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:28:46,503 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:47,471 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:49,473 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:49,864 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:28:49,866 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:28:49,866 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:28:49,869 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:28:50,474 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:28:51,475 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:51,871 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:52,476 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:28:54,549 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:28:57,550 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:28:59,482 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:00,462 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:29:00,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:29:02,707 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:07,488 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:08,193 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:13,194 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:15,462 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:29:15,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:29:15,494 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:18,625 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:23,500 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:24,550 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:29:24,552 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:29,552 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:30,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:29:30,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:29:33,508 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:34,879 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:40,100 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:41,514 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:43,516 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:44,188 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:29:44,190 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:29:44,190 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:29:44,193 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:29:44,517 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:29:45,194 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:45,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:29:45,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:29:45,518 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:46,520 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:50,694 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:29:53,525 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:29:54,552 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:29:56,553 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:00,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:30:00,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:30:01,061 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:30:01,063 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:30:01,064 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:30:01,065 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:30:01,530 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:30:02,066 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:02,532 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:03,533 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:07,067 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:11,539 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:12,573 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:15,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:30:15,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:30:17,703 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:19,546 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:22,912 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:24,554 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:30:27,552 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:27,971 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:30,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:30:30,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:30:33,676 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:35,560 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:37,562 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:39,108 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:39,266 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:30:39,267 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:30:39,268 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:30:39,281 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:30:39,566 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:30:39,567 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:40,582 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:41,623 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:44,283 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:45,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:30:45,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:30:49,599 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:49,631 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:30:54,555 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:30:55,556 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:30:57,637 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:00,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:31:00,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:31:00,754 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:05,643 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:06,242 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:11,243 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:13,649 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:15,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:31:15,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:31:16,678 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:21,656 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:21,737 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:24,557 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:31:27,559 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:29,445 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:31:29,447 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:31:29,447 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:31:29,449 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:31:29,662 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:31:30,463 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:31:30,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:31:30,663 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:31,664 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:32,631 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:33,667 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:34,641 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:31:34,642 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:31:34,643 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:31:34,645 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:31:34,667 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:31:35,668 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:36,670 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:37,646 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:42,647 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:45,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:31:45,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:31:45,677 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:47,663 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:53,207 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:31:53,683 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:31:54,560 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:31:58,561 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:00,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:32:00,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:32:01,689 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:03,668 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:09,482 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:09,696 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:14,483 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:15,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:32:15,464 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:32:17,702 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:19,992 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:24,560 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:32:25,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:25,709 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:27,711 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:29,549 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:32:29,550 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:32:29,551 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:32:29,553 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:32:29,713 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:32:29,713 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:30,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:32:30,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:32:30,696 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:30,714 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:31,715 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:35,697 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:39,722 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:40,837 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:45,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:32:45,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:32:46,005 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:47,729 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:51,006 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:32:54,561 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:32:55,735 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:32:56,563 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:00,464 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:33:00,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:33:01,702 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:02,621 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:33:02,622 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:33:02,623 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:33:02,625 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:33:02,740 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:33:03,741 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:04,743 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:07,626 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:11,749 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:12,910 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:15,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:33:15,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:33:18,710 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:21,757 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:23,759 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:23,789 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:24,451 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:33:24,453 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:33:24,453 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:33:24,456 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:33:24,563 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:33:24,760 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:33:25,761 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:26,763 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:29,565 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:30,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:33:30,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:33:34,991 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:35,771 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:39,992 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:43,777 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:45,100 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:45,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:33:45,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:33:50,439 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:51,784 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:33:54,565 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:33:55,566 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:33:59,791 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:00,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:34:00,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:34:00,737 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:05,738 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:07,797 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:11,051 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:15,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:34:15,465 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:34:15,817 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:16,669 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:17,819 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:19,355 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:34:19,356 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:34:19,357 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:34:19,360 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:34:19,821 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:34:19,821 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:20,822 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:21,824 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:22,361 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:24,566 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:34:27,568 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:29,830 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:30,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:34:30,466 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:34:32,665 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:36,025 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:34:36,027 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:34:36,027 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:34:36,029 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:34:36,835 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:34:36,836 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:37,837 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:38,030 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:43,031 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:45,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:34:45,466 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:34:45,843 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:48,682 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:53,850 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:34:54,568 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:34:54,569 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:34:59,570 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:00,465 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:35:00,466 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:35:01,860 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:04,949 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:09,871 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:10,209 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:11,874 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:13,877 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:14,291 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:35:14,292 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:35:14,293 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:35:14,296 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:35:14,879 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:35:14,879 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:15,297 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:15,466 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:35:15,466 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:35:15,880 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:20,994 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:23,889 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:24,569 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:35:26,571 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:30,466 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:35:30,467 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:35:31,898 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:31,930 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:36,930 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:41,913 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:42,268 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:45,466 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:35:45,467 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:35:47,541 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:49,924 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:35:52,541 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:54,571 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:35:57,698 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:35:57,933 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:00,466 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:36:00,466 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:36:03,651 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:04,029 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:36:04,030 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:36:04,031 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:36:04,033 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:36:04,942 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:36:04,942 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:05,945 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:07,949 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:09,070 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:09,228 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:36:09,229 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:36:09,230 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:36:09,233 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:36:09,952 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:36:09,953 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:10,955 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:11,957 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:14,235 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:15,573 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:36:15,574 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:36:20,095 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:24,574 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:36:25,575 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:27,974 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:30,532 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:36:30,533 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:36:30,803 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:35,980 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:36,202 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:41,203 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:45,532 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:36:45,533 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:36:45,988 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:46,805 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:51,806 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:36:53,994 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:36:54,574 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:36:57,575 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:00,533 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:37:00,533 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:37:02,001 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:02,979 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:07,980 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:10,007 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:12,009 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:13,303 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:13,461 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:37:13,463 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:37:13,463 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:37:13,465 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:37:14,011 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:37:14,011 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:15,012 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:15,533 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:37:15,533 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:37:16,014 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:18,777 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:24,021 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:24,575 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:37:24,576 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:29,578 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:30,533 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:37:30,534 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:37:32,030 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:34,718 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:40,040 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:40,066 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:45,067 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:45,533 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:37:45,533 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:37:46,436 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:37:46,437 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:37:46,437 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:37:46,439 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:37:47,046 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:37:47,047 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:48,047 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:37:50,441 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:54,577 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:37:55,596 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:37:56,054 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:00,533 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:38:00,534 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:38:00,711 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:04,060 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:05,953 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:06,062 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:07,966 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 19:38:07,968 DEBUG   SenderThread:1017 [sender.py:send():379] send: history
+2023-09-20 19:38:07,969 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 19:38:07,971 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:38:08,064 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:38:08,064 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:09,065 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:10,067 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:10,973 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:15,534 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:38:15,535 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:38:16,204 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:18,073 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:21,205 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:24,579 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:38:26,079 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:26,719 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:30,534 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:38:30,535 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:38:32,711 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:34,085 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:38,057 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:42,091 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:43,344 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:45,534 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 19:38:45,534 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 19:38:48,830 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:49,097 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:51,737 DEBUG   SenderThread:1017 [sender.py:send():379] send: exit
+2023-09-20 19:38:51,738 INFO    SenderThread:1017 [sender.py:send_exit():584] handling exit code: 1
+2023-09-20 19:38:51,738 INFO    SenderThread:1017 [sender.py:send_exit():586] handling runtime: 1827
+2023-09-20 19:38:51,739 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:38:51,740 INFO    SenderThread:1017 [sender.py:send_exit():592] send defer
+2023-09-20 19:38:51,740 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,740 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-20 19:38:51,740 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,740 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-20 19:38:51,740 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 1
+2023-09-20 19:38:51,740 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,740 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-20 19:38:51,741 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,741 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-20 19:38:51,741 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 2
+2023-09-20 19:38:51,741 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,741 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-20 19:38:51,741 INFO    HandlerThread:1017 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 19:38:51,742 INFO    HandlerThread:1017 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 19:38:51,742 INFO    HandlerThread:1017 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 19:38:51,742 DEBUG   SystemMonitor:1017 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 19:38:51,743 DEBUG   SystemMonitor:1017 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 19:38:51,769 INFO    HandlerThread:1017 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-20 19:38:51,769 INFO    HandlerThread:1017 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 19:38:51,769 INFO    HandlerThread:1017 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 19:38:51,770 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,770 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-20 19:38:51,770 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 3
+2023-09-20 19:38:51,770 DEBUG   SenderThread:1017 [sender.py:send():379] send: stats
+2023-09-20 19:38:51,771 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,771 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-20 19:38:51,771 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,771 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-20 19:38:51,771 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 4
+2023-09-20 19:38:51,771 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,771 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-20 19:38:51,772 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,772 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-20 19:38:51,772 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 5
+2023-09-20 19:38:51,772 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,772 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-20 19:38:51,772 DEBUG   SenderThread:1017 [sender.py:send():379] send: summary
+2023-09-20 19:38:51,774 INFO    SenderThread:1017 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 19:38:51,774 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,774 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-20 19:38:51,774 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 6
+2023-09-20 19:38:51,775 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,775 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-20 19:38:51,775 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,775 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-20 19:38:51,775 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 7
+2023-09-20 19:38:51,775 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 19:38:51,775 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:51,775 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-20 19:38:51,776 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:51,776 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-20 19:38:52,100 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:38:52,736 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-20 19:38:54,102 INFO    Thread-12 :1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:54,717 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 8
+2023-09-20 19:38:54,717 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: poll_exit
+2023-09-20 19:38:54,717 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:54,717 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-20 19:38:54,718 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:54,718 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-20 19:38:54,718 INFO    SenderThread:1017 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-20 19:38:54,720 INFO    SenderThread:1017 [job_builder.py:_get_source_type():411] no source found
+2023-09-20 19:38:54,720 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 9
+2023-09-20 19:38:54,720 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:54,720 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-20 19:38:54,720 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:54,720 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-20 19:38:54,720 INFO    SenderThread:1017 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-20 19:38:55,103 INFO    SenderThread:1017 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:55,104 INFO    SenderThread:1017 [dir_watcher.py:finish():388] scan: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files
+2023-09-20 19:38:55,104 INFO    SenderThread:1017 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/requirements.txt requirements.txt
+2023-09-20 19:38:55,104 INFO    SenderThread:1017 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/conda-environment.yaml conda-environment.yaml
+2023-09-20 19:38:55,105 INFO    SenderThread:1017 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/config.yaml config.yaml
+2023-09-20 19:38:55,109 INFO    SenderThread:1017 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-metadata.json wandb-metadata.json
+2023-09-20 19:38:55,113 INFO    SenderThread:1017 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log output.log
+2023-09-20 19:38:55,119 INFO    SenderThread:1017 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json wandb-summary.json
+2023-09-20 19:38:55,120 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 10
+2023-09-20 19:38:55,123 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:55,123 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-20 19:38:55,128 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:55,128 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-20 19:38:55,128 INFO    SenderThread:1017 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-20 19:38:55,490 INFO    wandb-upload_0:1017 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/requirements.txt
+2023-09-20 19:38:55,571 INFO    wandb-upload_1:1017 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/conda-environment.yaml
+2023-09-20 19:38:55,574 INFO    wandb-upload_4:1017 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/wandb-summary.json
+2023-09-20 19:38:55,575 INFO    wandb-upload_2:1017 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/config.yaml
+2023-09-20 19:38:55,604 INFO    wandb-upload_3:1017 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/files/output.log
+2023-09-20 19:38:55,805 INFO    Thread-11 (_thread_body):1017 [sender.py:transition_state():612] send defer: 11
+2023-09-20 19:38:55,805 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:55,805 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-20 19:38:55,806 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:55,806 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-20 19:38:55,806 INFO    SenderThread:1017 [file_pusher.py:join():164] waiting for file pusher
+2023-09-20 19:38:55,806 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 12
+2023-09-20 19:38:55,806 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:55,806 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-20 19:38:55,806 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:55,806 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-20 19:38:55,806 INFO    SenderThread:1017 [file_stream.py:finish():593] file stream finish called
+2023-09-20 19:38:56,524 INFO    SenderThread:1017 [file_stream.py:finish():597] file stream finish is done
+2023-09-20 19:38:56,524 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 13
+2023-09-20 19:38:56,524 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:56,524 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-20 19:38:56,524 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:56,524 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-20 19:38:56,524 INFO    SenderThread:1017 [sender.py:transition_state():612] send defer: 14
+2023-09-20 19:38:56,525 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: defer
+2023-09-20 19:38:56,525 INFO    HandlerThread:1017 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-20 19:38:56,525 DEBUG   SenderThread:1017 [sender.py:send():379] send: final
+2023-09-20 19:38:56,525 DEBUG   SenderThread:1017 [sender.py:send():379] send: footer
+2023-09-20 19:38:56,525 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: defer
+2023-09-20 19:38:56,525 INFO    SenderThread:1017 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-20 19:38:56,526 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-20 19:38:56,526 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: poll_exit
+2023-09-20 19:38:56,526 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: server_info
+2023-09-20 19:38:56,527 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: server_info
+2023-09-20 19:38:56,530 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-20 19:38:56,531 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-20 19:38:56,532 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: job_info
+2023-09-20 19:38:56,666 DEBUG   SenderThread:1017 [sender.py:send_request():406] send_request: job_info
+2023-09-20 19:38:56,666 INFO    MainThread:1017 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-20 19:38:56,667 INFO    MainThread:1017 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-20 19:38:56,668 INFO    MainThread:1017 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-09-20 19:38:56,668 DEBUG   HandlerThread:1017 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-20 19:38:56,668 INFO    HandlerThread:1017 [handler.py:finish():857] shutting down handler
+2023-09-20 19:38:57,533 INFO    WriterThread:1017 [datastore.py:close():294] close: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230920_190822-tzh2m20d/run-tzh2m20d.wandb
+2023-09-20 19:38:57,667 INFO    SenderThread:1017 [sender.py:finish():1552] shutting down sender
+2023-09-20 19:38:57,667 INFO    SenderThread:1017 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-20 19:38:57,667 INFO    SenderThread:1017 [file_pusher.py:join():164] waiting for file pusher

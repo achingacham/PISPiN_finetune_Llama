@@ -1,0 +1,353 @@
+2023-09-12 04:13:29,602 INFO    StreamThr :572 [internal.py:wandb_internal():86] W&B internal server running at pid: 572, started at: 2023-09-12 04:13:29.600982
+2023-09-12 04:13:29,604 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status
+2023-09-12 04:13:29,667 INFO    WriterThread:572 [datastore.py:open_for_write():85] open: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/run-429towid.wandb
+2023-09-12 04:13:29,669 DEBUG   SenderThread:572 [sender.py:send():379] send: header
+2023-09-12 04:13:29,684 DEBUG   SenderThread:572 [sender.py:send():379] send: run
+2023-09-12 04:13:30,100 INFO    SenderThread:572 [dir_watcher.py:__init__():211] watching files in: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files
+2023-09-12 04:13:30,100 INFO    SenderThread:572 [sender.py:_start_run_threads():1121] run started: 429towid with start time 1694492009.61856
+2023-09-12 04:13:30,232 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: summary_record
+2023-09-12 04:13:30,234 INFO    SenderThread:572 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-12 04:13:30,399 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: check_version
+2023-09-12 04:13:30,400 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: check_version
+2023-09-12 04:13:30,554 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: run_start
+2023-09-12 04:13:30,560 DEBUG   HandlerThread:572 [system_info.py:__init__():31] System info init
+2023-09-12 04:13:30,560 DEBUG   HandlerThread:572 [system_info.py:__init__():46] System info init done
+2023-09-12 04:13:30,560 INFO    HandlerThread:572 [system_monitor.py:start():181] Starting system monitor
+2023-09-12 04:13:30,561 INFO    SystemMonitor:572 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-12 04:13:30,561 INFO    HandlerThread:572 [system_monitor.py:probe():201] Collecting system info
+2023-09-12 04:13:30,562 INFO    SystemMonitor:572 [interfaces.py:start():190] Started cpu monitoring
+2023-09-12 04:13:30,562 INFO    SystemMonitor:572 [interfaces.py:start():190] Started disk monitoring
+2023-09-12 04:13:30,563 INFO    SystemMonitor:572 [interfaces.py:start():190] Started gpu monitoring
+2023-09-12 04:13:30,564 INFO    SystemMonitor:572 [interfaces.py:start():190] Started memory monitoring
+2023-09-12 04:13:30,564 INFO    SystemMonitor:572 [interfaces.py:start():190] Started network monitoring
+2023-09-12 04:13:30,610 DEBUG   HandlerThread:572 [system_info.py:probe():195] Probing system
+2023-09-12 04:13:30,614 DEBUG   HandlerThread:572 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-12 04:13:30,614 DEBUG   HandlerThread:572 [system_info.py:probe():240] Probing system done
+2023-09-12 04:13:30,614 DEBUG   HandlerThread:572 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-196-generic-x86_64-with-glibc2.31', 'python': '3.10.4', 'heartbeatAt': '2023-09-12T04:13:30.610801', 'startedAt': '2023-09-12T04:13:29.530261', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'host': 'achingacham-10720.0-cl16lx.lsv.uni-saarland.de', 'username': 'achingacham', 'executable': '/data/users/achingacham/anaconda3/envs/llama/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2055.268500000001, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 800.0, 'min': 0.0, 'max': 0.0}, {'current': 2336.246, 'min': 0.0, 'max': 0.0}, {'current': 1109.42, 'min': 0.0, 'max': 0.0}, {'current': 2431.529, 'min': 0.0, 'max': 0.0}, {'current': 1092.223, 'min': 0.0, 'max': 0.0}, {'current': 2647.644, 'min': 0.0, 'max': 0.0}, {'current': 1858.913, 'min': 0.0, 'max': 0.0}, {'current': 2585.638, 'min': 0.0, 'max': 0.0}, {'current': 868.796, 'min': 0.0, 'max': 0.0}, {'current': 2772.156, 'min': 0.0, 'max': 0.0}, {'current': 2919.977, 'min': 0.0, 'max': 0.0}, {'current': 2441.167, 'min': 0.0, 'max': 0.0}, {'current': 1871.755, 'min': 0.0, 'max': 0.0}, {'current': 2351.344, 'min': 0.0, 'max': 0.0}, {'current': 1087.669, 'min': 0.0, 'max': 0.0}, {'current': 2283.924, 'min': 0.0, 'max': 0.0}, {'current': 1860.826, 'min': 0.0, 'max': 0.0}, {'current': 2652.497, 'min': 0.0, 'max': 0.0}, {'current': 1974.432, 'min': 0.0, 'max': 0.0}, {'current': 2483.561, 'min': 0.0, 'max': 0.0}, {'current': 1889.562, 'min': 0.0, 'max': 0.0}, {'current': 2704.693, 'min': 0.0, 'max': 0.0}, {'current': 1952.486, 'min': 0.0, 'max': 0.0}, {'current': 2452.253, 'min': 0.0, 'max': 0.0}, {'current': 1935.706, 'min': 0.0, 'max': 0.0}, {'current': 2356.79, 'min': 0.0, 'max': 0.0}, {'current': 1929.47, 'min': 0.0, 'max': 0.0}, {'current': 2503.052, 'min': 0.0, 'max': 0.0}, {'current': 1421.605, 'min': 0.0, 'max': 0.0}, {'current': 2693.552, 'min': 0.0, 'max': 0.0}, {'current': 1696.762, 'min': 0.0, 'max': 0.0}, {'current': 2513.846, 'min': 0.0, 'max': 0.0}, {'current': 1415.054, 'min': 0.0, 'max': 0.0}, {'current': 2518.369, 'min': 0.0, 'max': 0.0}, {'current': 1682.157, 'min': 0.0, 'max': 0.0}, {'current': 2467.989, 'min': 0.0, 'max': 0.0}, {'current': 1182.334, 'min': 0.0, 'max': 0.0}, {'current': 2599.592, 'min': 0.0, 'max': 0.0}, {'current': 1118.159, 'min': 0.0, 'max': 0.0}, {'current': 2747.592, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 217.94765090942383, 'used': 100.59502792358398}, 'gpu': 'Tesla V100-PCIE-32GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}], 'memory': {'total': 251.41234588623047}}
+2023-09-12 04:13:30,614 INFO    HandlerThread:572 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-12 04:13:30,614 INFO    HandlerThread:572 [system_monitor.py:probe():214] Publishing system info
+2023-09-12 04:13:30,614 DEBUG   HandlerThread:572 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-12 04:13:30,616 DEBUG   HandlerThread:572 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-12 04:13:30,616 DEBUG   HandlerThread:572 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-12 04:13:31,103 INFO    Thread-12 :572 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/requirements.txt
+2023-09-12 04:13:31,103 INFO    Thread-12 :572 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/conda-environment.yaml
+2023-09-12 04:13:31,103 INFO    Thread-12 :572 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/wandb-summary.json
+2023-09-12 04:13:41,111 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/conda-environment.yaml
+2023-09-12 04:13:41,214 DEBUG   HandlerThread:572 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-12 04:13:41,217 INFO    HandlerThread:572 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-12 04:13:41,235 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:13:41,236 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 04:13:41,236 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:13:41,236 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 04:13:41,236 DEBUG   SenderThread:572 [sender.py:send():379] send: files
+2023-09-12 04:13:41,237 INFO    SenderThread:572 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-12 04:13:41,327 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:13:41,327 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:13:41,555 DEBUG   SenderThread:572 [sender.py:send():379] send: telemetry
+2023-09-12 04:13:41,555 DEBUG   SenderThread:572 [sender.py:send():379] send: config
+2023-09-12 04:13:41,557 DEBUG   SenderThread:572 [sender.py:send():379] send: metric
+2023-09-12 04:13:41,557 DEBUG   SenderThread:572 [sender.py:send():379] send: telemetry
+2023-09-12 04:13:41,557 DEBUG   SenderThread:572 [sender.py:send():379] send: metric
+2023-09-12 04:13:41,557 WARNING SenderThread:572 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2023-09-12 04:13:41,848 INFO    wandb-upload_0:572 [upload_job.py:push():131] Uploaded file /tmp/tmpm9wz9zzrwandb/71mlag8y-wandb-metadata.json
+2023-09-12 04:13:42,113 INFO    Thread-12 :572 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/wandb-metadata.json
+2023-09-12 04:13:42,113 INFO    Thread-12 :572 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:13:44,115 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:13:45,561 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:13:50,562 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:13:55,563 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:13:56,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:13:56,326 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:14:00,573 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:01,131 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/config.yaml
+2023-09-12 04:14:05,810 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:10,811 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:11,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:14:11,326 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:14:16,549 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:21,550 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:26,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:14:26,327 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:14:26,571 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:30,566 DEBUG   SystemMonitor:572 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-12 04:14:30,568 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:14:32,569 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:37,570 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:41,327 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:14:41,328 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:14:42,167 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:14:43,501 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:48,502 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:53,503 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:14:56,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:14:56,327 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:14:58,560 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:00,569 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:15:03,571 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:08,572 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:11,327 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:15:11,327 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:15:12,193 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:15:14,526 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:19,527 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:24,528 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:26,327 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:15:26,327 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:15:29,581 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:30,571 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:15:35,573 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:40,574 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:41,328 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:15:41,328 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:15:46,493 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:51,494 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:15:56,328 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:15:56,328 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:15:56,561 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:00,572 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:16:01,573 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:04,237 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:16:07,506 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:11,328 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:16:11,329 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:16:12,547 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:17,548 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:22,253 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:16:23,170 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:26,328 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:16:26,329 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:16:28,512 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:30,574 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:16:34,110 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:34,266 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:16:39,111 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:41,328 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:16:41,329 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:16:42,272 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:16:44,304 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:46,276 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:16:49,305 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:52,282 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:16:54,667 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:16:56,328 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:16:56,329 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:16:58,288 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:17:00,534 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:00,576 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:17:06,038 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:06,296 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:17:11,039 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:11,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:17:11,329 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:17:16,528 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:21,529 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:26,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:17:26,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:17:27,524 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:30,577 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:17:32,579 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:37,581 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:41,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:17:41,329 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:17:43,567 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:48,568 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:53,570 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:17:56,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:17:56,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:17:59,557 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:00,579 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:18:04,581 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:09,582 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:11,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:18:11,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:18:15,573 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:20,574 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:25,575 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:26,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:18:26,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:18:30,581 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:18:30,583 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:35,583 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:40,584 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:41,329 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:18:41,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:18:45,604 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:50,605 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:55,606 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:18:56,330 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:18:56,331 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:19:00,582 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:19:01,583 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:06,585 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:11,330 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:19:11,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:19:12,565 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:17,566 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:22,567 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:26,330 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:19:26,330 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:19:27,592 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:30,584 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:19:33,585 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:38,587 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:41,330 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:19:41,331 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:19:44,495 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:49,496 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:54,498 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:19:56,330 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:19:56,331 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:19:59,532 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:00,585 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:20:04,587 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:09,589 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:11,332 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:20:11,332 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:20:15,575 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:20,576 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:25,578 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:26,331 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 04:20:26,332 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: stop_status
+2023-09-12 04:20:30,587 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:20:30,591 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:35,590 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:37,296 DEBUG   SenderThread:572 [sender.py:send():379] send: exit
+2023-09-12 04:20:37,296 INFO    SenderThread:572 [sender.py:send_exit():584] handling exit code: 1
+2023-09-12 04:20:37,296 INFO    SenderThread:572 [sender.py:send_exit():586] handling runtime: 426
+2023-09-12 04:20:37,298 INFO    SenderThread:572 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-12 04:20:37,298 INFO    SenderThread:572 [sender.py:send_exit():592] send defer
+2023-09-12 04:20:37,299 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,299 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-12 04:20:37,299 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,299 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-12 04:20:37,299 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 1
+2023-09-12 04:20:37,299 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,299 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-12 04:20:37,299 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,299 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-12 04:20:37,300 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 2
+2023-09-12 04:20:37,300 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,300 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-12 04:20:37,300 INFO    HandlerThread:572 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-12 04:20:37,300 DEBUG   SystemMonitor:572 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-12 04:20:37,301 INFO    HandlerThread:572 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-12 04:20:37,301 DEBUG   SystemMonitor:572 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-12 04:20:37,301 INFO    HandlerThread:572 [interfaces.py:finish():202] Joined disk monitor
+2023-09-12 04:20:37,320 INFO    HandlerThread:572 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-12 04:20:37,320 INFO    HandlerThread:572 [interfaces.py:finish():202] Joined memory monitor
+2023-09-12 04:20:37,320 INFO    HandlerThread:572 [interfaces.py:finish():202] Joined network monitor
+2023-09-12 04:20:37,320 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,321 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-12 04:20:37,321 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 3
+2023-09-12 04:20:37,321 DEBUG   SenderThread:572 [sender.py:send():379] send: stats
+2023-09-12 04:20:37,321 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,322 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-12 04:20:37,322 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,322 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-12 04:20:37,322 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 4
+2023-09-12 04:20:37,322 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,322 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-12 04:20:37,323 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,323 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-12 04:20:37,323 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 5
+2023-09-12 04:20:37,323 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,323 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-12 04:20:37,324 DEBUG   SenderThread:572 [sender.py:send():379] send: summary
+2023-09-12 04:20:37,325 INFO    SenderThread:572 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-12 04:20:37,326 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,326 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-12 04:20:37,326 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 6
+2023-09-12 04:20:37,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,326 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-12 04:20:37,326 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,326 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-12 04:20:37,326 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 7
+2023-09-12 04:20:37,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 04:20:37,326 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:37,326 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-12 04:20:37,327 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:37,327 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-12 04:20:37,480 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/wandb-summary.json
+2023-09-12 04:20:38,296 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-12 04:20:38,482 INFO    Thread-12 :572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:20:38,548 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 8
+2023-09-12 04:20:38,548 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: poll_exit
+2023-09-12 04:20:38,548 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:38,548 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-12 04:20:38,549 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:38,549 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-12 04:20:38,549 INFO    SenderThread:572 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-12 04:20:38,551 INFO    SenderThread:572 [job_builder.py:_get_source_type():411] no source found
+2023-09-12 04:20:38,551 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 9
+2023-09-12 04:20:38,551 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:38,551 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-12 04:20:38,552 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:38,552 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-12 04:20:38,552 INFO    SenderThread:572 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-12 04:20:39,297 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-12 04:20:39,483 INFO    SenderThread:572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:20:39,483 INFO    SenderThread:572 [dir_watcher.py:finish():388] scan: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files
+2023-09-12 04:20:39,484 INFO    SenderThread:572 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/requirements.txt requirements.txt
+2023-09-12 04:20:39,484 INFO    SenderThread:572 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/conda-environment.yaml conda-environment.yaml
+2023-09-12 04:20:39,484 INFO    SenderThread:572 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/config.yaml config.yaml
+2023-09-12 04:20:39,489 INFO    SenderThread:572 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/wandb-metadata.json wandb-metadata.json
+2023-09-12 04:20:39,489 INFO    SenderThread:572 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log output.log
+2023-09-12 04:20:39,494 INFO    SenderThread:572 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/wandb-summary.json wandb-summary.json
+2023-09-12 04:20:39,499 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 10
+2023-09-12 04:20:39,499 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: poll_exit
+2023-09-12 04:20:39,499 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:39,499 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-12 04:20:39,503 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:39,507 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-12 04:20:39,507 INFO    SenderThread:572 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-12 04:20:40,075 INFO    wandb-upload_4:572 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/wandb-summary.json
+2023-09-12 04:20:40,077 INFO    wandb-upload_0:572 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/requirements.txt
+2023-09-12 04:20:40,096 INFO    wandb-upload_1:572 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/conda-environment.yaml
+2023-09-12 04:20:40,107 INFO    wandb-upload_3:572 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/output.log
+2023-09-12 04:20:40,109 INFO    wandb-upload_2:572 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/files/config.yaml
+2023-09-12 04:20:40,297 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-12 04:20:40,298 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: poll_exit
+2023-09-12 04:20:40,309 INFO    Thread-11 (_thread_body):572 [sender.py:transition_state():612] send defer: 11
+2023-09-12 04:20:40,309 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:40,309 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-12 04:20:40,310 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:40,310 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-12 04:20:40,310 INFO    SenderThread:572 [file_pusher.py:join():164] waiting for file pusher
+2023-09-12 04:20:40,310 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 12
+2023-09-12 04:20:40,310 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:40,310 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-12 04:20:40,310 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:40,310 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-12 04:20:40,311 INFO    SenderThread:572 [file_stream.py:finish():593] file stream finish called
+2023-09-12 04:20:40,804 INFO    SenderThread:572 [file_stream.py:finish():597] file stream finish is done
+2023-09-12 04:20:40,804 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 13
+2023-09-12 04:20:40,804 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:40,804 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-12 04:20:40,805 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:40,805 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-12 04:20:40,805 INFO    SenderThread:572 [sender.py:transition_state():612] send defer: 14
+2023-09-12 04:20:40,805 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: defer
+2023-09-12 04:20:40,806 INFO    HandlerThread:572 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-12 04:20:40,806 DEBUG   SenderThread:572 [sender.py:send():379] send: final
+2023-09-12 04:20:40,806 DEBUG   SenderThread:572 [sender.py:send():379] send: footer
+2023-09-12 04:20:40,806 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: defer
+2023-09-12 04:20:40,806 INFO    SenderThread:572 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-12 04:20:40,807 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-12 04:20:40,807 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: poll_exit
+2023-09-12 04:20:40,807 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-12 04:20:40,808 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: poll_exit
+2023-09-12 04:20:40,808 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: server_info
+2023-09-12 04:20:40,808 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: server_info
+2023-09-12 04:20:40,812 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-12 04:20:40,812 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-12 04:20:40,813 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: job_info
+2023-09-12 04:20:40,967 DEBUG   SenderThread:572 [sender.py:send_request():406] send_request: job_info
+2023-09-12 04:20:40,967 INFO    MainThread:572 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-12 04:20:40,967 INFO    MainThread:572 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-12 04:20:40,967 INFO    MainThread:572 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-09-12 04:20:40,968 DEBUG   HandlerThread:572 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-12 04:20:40,968 INFO    HandlerThread:572 [handler.py:finish():857] shutting down handler
+2023-09-12 04:20:41,813 INFO    WriterThread:572 [datastore.py:close():294] close: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230912_041329-429towid/run-429towid.wandb
+2023-09-12 04:20:41,967 INFO    SenderThread:572 [sender.py:finish():1552] shutting down sender
+2023-09-12 04:20:41,968 INFO    SenderThread:572 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-12 04:20:41,968 INFO    SenderThread:572 [file_pusher.py:join():164] waiting for file pusher

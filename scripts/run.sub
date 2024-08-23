@@ -1,0 +1,35 @@
+# HTCondor submit description file
+# Everything with a leading # is a comment
+
+universe                = docker
+docker_image		    = docker.lsv.uni-saarland.de/achingacham/htcondor-test:23.06-py3
+initialdir              = /nethome/achingacham
+
+#executable              = /nethome/achingacham/PycharmProjects/LLaMA/scripts/execute_sft.sh
+#for training cl16lx/cl18lx  IS NOT required.
+
+executable              = /nethome/achingacham/PycharmProjects/LLaMA/scripts/execute_ft_inference.sh
+#for inference cl16lx/cl18lx  IS required.
+
+arguments       = "/projects/SFB_A4/llama-2/llama-data/SWDA-PiSPIN/sample_input_text.txt"
+output                  = /data/users/achingacham/logs/llama/logfiles/run.sh.$(ClusterId).$(ProcId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).out
+error                   = /data/users/achingacham/logs/llama/logfiles/run.sh.$(ClusterId).$(ProcId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).err
+log                     = /data/users/achingacham/logs/llama/logfiles/run.sh.$(ClusterId).$(ProcId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).log
+request_CPUs            = 8
+request_memory          = 32G
+request_GPUs            = 1
+requirements            = GPUs_GlobalMemoryMb >= 32000
+#&& (machine == "cl17lx.lsv.uni-saarland.de")
+# exception of high resource machines (cl16lx and cl18lx):
+#requirements            =  (machine != "cl16lx.lsv.uni-saarland.de") && (machine != "cl18lx.lsv.uni-saarland.de")
+#MRPC
+queue 1
+
+#QUORA:
+#queue filename matching files /projects/SFB_A4/Corpora/quora-question-pairs/splits_test/*.txt
+#ParaBankv2.0:
+#queue filename matching files /projects/SFB_A4/Corpora/parabank-2.0/20230425-233609/splits_test-ac/*.txt
+
+#### Notes
+# for checking assigned machines: condor_status -constraint 'RemoteUser == "[lsv-email]"'
+# for better-analysis: condor_q -better-analyze

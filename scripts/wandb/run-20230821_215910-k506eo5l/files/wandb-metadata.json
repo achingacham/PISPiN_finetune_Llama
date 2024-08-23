@@ -1,0 +1,170 @@
+{
+    "os": "Linux-4.15.0-196-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-08-21T21:59:16.214616",
+    "startedAt": "2023-08-21T21:59:10.852371",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "achingacham-9548.0-cl10lx.lsv.uni-saarland.de",
+    "username": "achingacham",
+    "executable": "/data/users/achingacham/anaconda3/envs/llama/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 1576.4182500000006,
+        "min": 1200.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3183.853,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1198.884,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1299.457,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.145,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.064,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1198.731,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2353.843,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.768,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.304,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2098.753,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.685,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1469.98,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3091.891,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.994,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1302.266,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.413,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1198.661,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.194,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2465.869,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.303,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.394,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1647.371,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.921,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1582.206,
+            "min": 1200.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "total": 441.8669891357422,
+        "used": 239.01667022705078
+    },
+    "gpu": "NVIDIA GeForce GTX TITAN X",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX TITAN X",
+            "memory_total": 12806127616
+        },
+        {
+            "name": "NVIDIA GeForce GTX TITAN X",
+            "memory_total": 12806127616
+        },
+        {
+            "name": "NVIDIA GeForce GTX TITAN X",
+            "memory_total": 12806127616
+        },
+        {
+            "name": "NVIDIA GeForce GTX TITAN X",
+            "memory_total": 12806127616
+        }
+    ],
+    "memory": {
+        "total": 503.816463470459
+    }
+}

@@ -1,0 +1,251 @@
+{
+    "os": "Linux-4.15.0-196-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-09-12T00:58:04.755907",
+    "startedAt": "2023-09-12T00:58:04.192903",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py",
+    "codePath": "sft_llama.py",
+    "host": "achingacham-10719.0-cl16lx.lsv.uni-saarland.de",
+    "username": "achingacham",
+    "executable": "/data/users/achingacham/anaconda3/envs/llama/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 2254.7333,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2876.945,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2250.46,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2490.64,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2476.676,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2547.765,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 938.082,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.597,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 963.251,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2250.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2252.156,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2247.832,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2327.32,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2377.505,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1724.223,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2369.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2452.387,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2248.132,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1391.948,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2608.59,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1340.413,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2503.514,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2405.542,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2516.523,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 936.339,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2343.249,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2353.71,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2395.461,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2501.793,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2397.787,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2404.663,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2396.048,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2552.493,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2512.118,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2462.848,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2632.753,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2446.432,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2397.768,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2556.491,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2748.036,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2341.641,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 217.94765090942383,
+        "used": 100.59601593017578
+    },
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        }
+    ],
+    "memory": {
+        "total": 251.41234588623047
+    }
+}

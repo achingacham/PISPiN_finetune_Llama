@@ -1,0 +1,191 @@
+2023-09-19 01:07:21,370 INFO    StreamThr :1331 [internal.py:wandb_internal():86] W&B internal server running at pid: 1331, started at: 2023-09-19 01:07:21.369206
+2023-09-19 01:07:21,371 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: status
+2023-09-19 01:07:21,402 INFO    WriterThread:1331 [datastore.py:open_for_write():85] open: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/run-rfx4z89v.wandb
+2023-09-19 01:07:21,403 DEBUG   SenderThread:1331 [sender.py:send():379] send: header
+2023-09-19 01:07:21,408 DEBUG   SenderThread:1331 [sender.py:send():379] send: run
+2023-09-19 01:07:21,921 INFO    SenderThread:1331 [dir_watcher.py:__init__():211] watching files in: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files
+2023-09-19 01:07:21,921 INFO    SenderThread:1331 [sender.py:_start_run_threads():1121] run started: rfx4z89v with start time 1695085641.399548
+2023-09-19 01:07:21,921 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: summary_record
+2023-09-19 01:07:21,922 INFO    SenderThread:1331 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-19 01:07:21,930 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: check_version
+2023-09-19 01:07:21,930 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: check_version
+2023-09-19 01:07:22,002 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: run_start
+2023-09-19 01:07:22,007 DEBUG   HandlerThread:1331 [system_info.py:__init__():31] System info init
+2023-09-19 01:07:22,007 DEBUG   HandlerThread:1331 [system_info.py:__init__():46] System info init done
+2023-09-19 01:07:22,007 INFO    HandlerThread:1331 [system_monitor.py:start():181] Starting system monitor
+2023-09-19 01:07:22,007 INFO    SystemMonitor:1331 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-19 01:07:22,008 INFO    HandlerThread:1331 [system_monitor.py:probe():201] Collecting system info
+2023-09-19 01:07:22,008 INFO    SystemMonitor:1331 [interfaces.py:start():190] Started cpu monitoring
+2023-09-19 01:07:22,009 INFO    SystemMonitor:1331 [interfaces.py:start():190] Started disk monitoring
+2023-09-19 01:07:22,010 INFO    SystemMonitor:1331 [interfaces.py:start():190] Started gpu monitoring
+2023-09-19 01:07:22,011 INFO    SystemMonitor:1331 [interfaces.py:start():190] Started memory monitoring
+2023-09-19 01:07:22,011 INFO    SystemMonitor:1331 [interfaces.py:start():190] Started network monitoring
+2023-09-19 01:07:22,049 DEBUG   HandlerThread:1331 [system_info.py:probe():195] Probing system
+2023-09-19 01:07:22,052 DEBUG   HandlerThread:1331 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-19 01:07:22,052 DEBUG   HandlerThread:1331 [system_info.py:probe():240] Probing system done
+2023-09-19 01:07:22,052 DEBUG   HandlerThread:1331 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-196-generic-x86_64-with-glibc2.31', 'python': '3.10.4', 'heartbeatAt': '2023-09-19T01:07:22.049480', 'startedAt': '2023-09-19T01:07:21.264854', 'docker': None, 'cuda': None, 'args': ('--dataSetFile', '/projects/SFB_A4/A4-ParaphrasesinNoise/PiN.tsv_NoiseID2_lowPhER_to_highPhER', '-dsFile_iCol', 'low-SI-para', '-dsFile_oCol', 'high-SI-para', '-pPrefix', 'For the given input text, generate an acoustically better intelligible paraphrase with 10-12 words\n###Input: ', '-pInfix', '\n###Output: '), 'state': 'running', 'program': '<python with no main file>', 'host': 'achingacham-10968.0-cl16lx.lsv.uni-saarland.de', 'username': 'achingacham', 'executable': '/data/users/achingacham/anaconda3/envs/llama/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2517.71755, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2653.267, 'min': 0.0, 'max': 0.0}, {'current': 2849.437, 'min': 0.0, 'max': 0.0}, {'current': 2579.645, 'min': 0.0, 'max': 0.0}, {'current': 2335.002, 'min': 0.0, 'max': 0.0}, {'current': 2251.959, 'min': 0.0, 'max': 0.0}, {'current': 2517.288, 'min': 0.0, 'max': 0.0}, {'current': 2819.278, 'min': 0.0, 'max': 0.0}, {'current': 2502.914, 'min': 0.0, 'max': 0.0}, {'current': 2454.775, 'min': 0.0, 'max': 0.0}, {'current': 2364.208, 'min': 0.0, 'max': 0.0}, {'current': 2512.625, 'min': 0.0, 'max': 0.0}, {'current': 2672.292, 'min': 0.0, 'max': 0.0}, {'current': 2251.118, 'min': 0.0, 'max': 0.0}, {'current': 2711.559, 'min': 0.0, 'max': 0.0}, {'current': 2252.814, 'min': 0.0, 'max': 0.0}, {'current': 2633.093, 'min': 0.0, 'max': 0.0}, {'current': 2251.0, 'min': 0.0, 'max': 0.0}, {'current': 2441.527, 'min': 0.0, 'max': 0.0}, {'current': 2247.515, 'min': 0.0, 'max': 0.0}, {'current': 2364.084, 'min': 0.0, 'max': 0.0}, {'current': 2879.41, 'min': 0.0, 'max': 0.0}, {'current': 2779.011, 'min': 0.0, 'max': 0.0}, {'current': 2436.24, 'min': 0.0, 'max': 0.0}, {'current': 2615.573, 'min': 0.0, 'max': 0.0}, {'current': 2414.672, 'min': 0.0, 'max': 0.0}, {'current': 2770.324, 'min': 0.0, 'max': 0.0}, {'current': 2669.385, 'min': 0.0, 'max': 0.0}, {'current': 2470.828, 'min': 0.0, 'max': 0.0}, {'current': 2555.479, 'min': 0.0, 'max': 0.0}, {'current': 2726.27, 'min': 0.0, 'max': 0.0}, {'current': 2533.088, 'min': 0.0, 'max': 0.0}, {'current': 2598.325, 'min': 0.0, 'max': 0.0}, {'current': 2430.179, 'min': 0.0, 'max': 0.0}, {'current': 2391.508, 'min': 0.0, 'max': 0.0}, {'current': 2438.537, 'min': 0.0, 'max': 0.0}, {'current': 2456.953, 'min': 0.0, 'max': 0.0}, {'current': 2434.615, 'min': 0.0, 'max': 0.0}, {'current': 2464.165, 'min': 0.0, 'max': 0.0}, {'current': 2431.573, 'min': 0.0, 'max': 0.0}, {'current': 2547.167, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 217.94765090942383, 'used': 116.9845199584961}, 'gpu': 'Tesla V100-PCIE-32GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}], 'memory': {'total': 251.41234588623047}}
+2023-09-19 01:07:22,052 INFO    HandlerThread:1331 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-19 01:07:22,052 INFO    HandlerThread:1331 [system_monitor.py:probe():214] Publishing system info
+2023-09-19 01:07:22,052 DEBUG   HandlerThread:1331 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-19 01:07:22,054 DEBUG   HandlerThread:1331 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-19 01:07:22,054 DEBUG   HandlerThread:1331 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-19 01:07:22,924 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/requirements.txt
+2023-09-19 01:07:22,924 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/conda-environment.yaml
+2023-09-19 01:07:22,925 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/wandb-summary.json
+2023-09-19 01:07:41,806 DEBUG   HandlerThread:1331 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-19 01:07:41,808 INFO    HandlerThread:1331 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-19 01:07:41,907 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 01:07:41,907 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-19 01:07:41,908 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 01:07:41,908 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-19 01:07:41,908 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 01:07:41,908 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-19 01:07:41,908 DEBUG   SenderThread:1331 [sender.py:send():379] send: files
+2023-09-19 01:07:41,908 INFO    SenderThread:1331 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-19 01:07:41,916 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 01:07:41,917 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 01:07:41,938 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/conda-environment.yaml
+2023-09-19 01:07:41,939 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/wandb-metadata.json
+2023-09-19 01:07:42,141 DEBUG   SenderThread:1331 [sender.py:send():379] send: telemetry
+2023-09-19 01:07:42,142 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 01:07:42,142 DEBUG   SenderThread:1331 [sender.py:send():379] send: config
+2023-09-19 01:07:42,143 DEBUG   SenderThread:1331 [sender.py:send():379] send: metric
+2023-09-19 01:07:42,144 DEBUG   SenderThread:1331 [sender.py:send():379] send: telemetry
+2023-09-19 01:07:42,144 DEBUG   SenderThread:1331 [sender.py:send():379] send: metric
+2023-09-19 01:07:42,144 WARNING SenderThread:1331 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2023-09-19 01:07:42,146 DEBUG   SenderThread:1331 [sender.py:send():379] send: exit
+2023-09-19 01:07:42,146 INFO    SenderThread:1331 [sender.py:send_exit():584] handling exit code: 1
+2023-09-19 01:07:42,146 INFO    SenderThread:1331 [sender.py:send_exit():586] handling runtime: 20
+2023-09-19 01:07:42,149 INFO    SenderThread:1331 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-19 01:07:42,149 INFO    SenderThread:1331 [sender.py:send_exit():592] send defer
+2023-09-19 01:07:42,149 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,150 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-19 01:07:42,150 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,150 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-19 01:07:42,150 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 1
+2023-09-19 01:07:42,150 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,150 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-19 01:07:42,150 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,151 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-19 01:07:42,151 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 2
+2023-09-19 01:07:42,151 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,151 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-19 01:07:42,151 INFO    HandlerThread:1331 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-19 01:07:42,151 DEBUG   SystemMonitor:1331 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-19 01:07:42,151 DEBUG   SystemMonitor:1331 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-19 01:07:42,151 DEBUG   SystemMonitor:1331 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-19 01:07:42,152 INFO    HandlerThread:1331 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-19 01:07:42,152 INFO    HandlerThread:1331 [interfaces.py:finish():202] Joined disk monitor
+2023-09-19 01:07:42,173 INFO    HandlerThread:1331 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-19 01:07:42,173 INFO    HandlerThread:1331 [interfaces.py:finish():202] Joined memory monitor
+2023-09-19 01:07:42,173 INFO    HandlerThread:1331 [interfaces.py:finish():202] Joined network monitor
+2023-09-19 01:07:42,173 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,173 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-19 01:07:42,173 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 3
+2023-09-19 01:07:42,174 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,174 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-19 01:07:42,174 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,174 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-19 01:07:42,174 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 4
+2023-09-19 01:07:42,174 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,174 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-19 01:07:42,174 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,174 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-19 01:07:42,174 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 5
+2023-09-19 01:07:42,175 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,175 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-19 01:07:42,175 DEBUG   SenderThread:1331 [sender.py:send():379] send: summary
+2023-09-19 01:07:42,176 INFO    SenderThread:1331 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-19 01:07:42,176 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,177 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-19 01:07:42,177 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 6
+2023-09-19 01:07:42,177 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,177 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-19 01:07:42,177 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,177 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-19 01:07:42,182 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 01:07:42,431 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 7
+2023-09-19 01:07:42,431 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:42,431 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-19 01:07:42,431 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:42,431 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-19 01:07:42,504 INFO    wandb-upload_0:1331 [upload_job.py:push():131] Uploaded file /tmp/tmpgxqkh8o2wandb/7vseu3bn-wandb-metadata.json
+2023-09-19 01:07:42,940 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/config.yaml
+2023-09-19 01:07:42,940 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/wandb-summary.json
+2023-09-19 01:07:42,940 INFO    Thread-12 :1331 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/output.log
+2023-09-19 01:07:43,051 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-19 01:07:44,167 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 8
+2023-09-19 01:07:44,167 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: poll_exit
+2023-09-19 01:07:44,168 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:44,168 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-19 01:07:44,168 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:44,168 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-19 01:07:44,169 INFO    SenderThread:1331 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-19 01:07:44,171 INFO    SenderThread:1331 [job_builder.py:_get_source_type():411] no source found
+2023-09-19 01:07:44,171 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 9
+2023-09-19 01:07:44,171 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:44,171 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-19 01:07:44,171 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:44,171 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-19 01:07:44,171 INFO    SenderThread:1331 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-19 01:07:44,942 INFO    SenderThread:1331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/output.log
+2023-09-19 01:07:44,942 INFO    SenderThread:1331 [dir_watcher.py:finish():388] scan: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files
+2023-09-19 01:07:44,942 INFO    SenderThread:1331 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/requirements.txt requirements.txt
+2023-09-19 01:07:44,943 INFO    SenderThread:1331 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/conda-environment.yaml conda-environment.yaml
+2023-09-19 01:07:44,947 INFO    SenderThread:1331 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/config.yaml config.yaml
+2023-09-19 01:07:44,951 INFO    SenderThread:1331 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/wandb-metadata.json wandb-metadata.json
+2023-09-19 01:07:44,952 INFO    SenderThread:1331 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/output.log output.log
+2023-09-19 01:07:44,953 INFO    SenderThread:1331 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/wandb-summary.json wandb-summary.json
+2023-09-19 01:07:44,957 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 10
+2023-09-19 01:07:44,961 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:44,961 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-19 01:07:44,962 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:44,965 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-19 01:07:44,965 INFO    SenderThread:1331 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-19 01:07:45,313 INFO    wandb-upload_0:1331 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/requirements.txt
+2023-09-19 01:07:45,369 INFO    wandb-upload_3:1331 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/output.log
+2023-09-19 01:07:45,378 INFO    wandb-upload_2:1331 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/config.yaml
+2023-09-19 01:07:45,378 INFO    wandb-upload_1:1331 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/conda-environment.yaml
+2023-09-19 01:07:45,408 INFO    wandb-upload_4:1331 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/files/wandb-summary.json
+2023-09-19 01:07:45,608 INFO    Thread-11 (_thread_body):1331 [sender.py:transition_state():612] send defer: 11
+2023-09-19 01:07:45,609 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:45,609 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-19 01:07:45,609 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:45,609 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-19 01:07:45,610 INFO    SenderThread:1331 [file_pusher.py:join():164] waiting for file pusher
+2023-09-19 01:07:45,610 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 12
+2023-09-19 01:07:45,610 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:45,610 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-19 01:07:45,610 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:45,610 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-19 01:07:45,610 INFO    SenderThread:1331 [file_stream.py:finish():593] file stream finish called
+2023-09-19 01:07:45,788 INFO    SenderThread:1331 [file_stream.py:finish():597] file stream finish is done
+2023-09-19 01:07:45,788 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 13
+2023-09-19 01:07:45,788 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:45,788 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-19 01:07:45,789 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:45,789 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-19 01:07:45,789 INFO    SenderThread:1331 [sender.py:transition_state():612] send defer: 14
+2023-09-19 01:07:45,789 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 01:07:45,789 INFO    HandlerThread:1331 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-19 01:07:45,789 DEBUG   SenderThread:1331 [sender.py:send():379] send: final
+2023-09-19 01:07:45,789 DEBUG   SenderThread:1331 [sender.py:send():379] send: footer
+2023-09-19 01:07:45,789 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: defer
+2023-09-19 01:07:45,789 INFO    SenderThread:1331 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-19 01:07:45,790 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-19 01:07:45,791 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: server_info
+2023-09-19 01:07:45,791 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: poll_exit
+2023-09-19 01:07:45,791 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: server_info
+2023-09-19 01:07:45,791 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-19 01:07:45,796 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-19 01:07:45,796 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: job_info
+2023-09-19 01:07:45,941 DEBUG   SenderThread:1331 [sender.py:send_request():406] send_request: job_info
+2023-09-19 01:07:45,942 INFO    MainThread:1331 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-19 01:07:45,942 INFO    MainThread:1331 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-19 01:07:45,942 INFO    MainThread:1331 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-09-19 01:07:45,942 DEBUG   HandlerThread:1331 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-19 01:07:45,942 INFO    HandlerThread:1331 [handler.py:finish():857] shutting down handler
+2023-09-19 01:07:46,796 INFO    WriterThread:1331 [datastore.py:close():294] close: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_010721-rfx4z89v/run-rfx4z89v.wandb
+2023-09-19 01:07:46,942 INFO    SenderThread:1331 [sender.py:finish():1552] shutting down sender
+2023-09-19 01:07:46,942 INFO    SenderThread:1331 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-19 01:07:46,942 INFO    SenderThread:1331 [file_pusher.py:join():164] waiting for file pusher

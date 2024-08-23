@@ -1,0 +1,53 @@
+
+  0%|                                                                                                        | 0/500 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/trl/trainer/utils.py(109)torch_call()
+    108                 import ipdb; ipdb.set_trace()
+--> 109                 if response_token_ids_start_idx is None:
+    110                     raise RuntimeError(
+49
+*** NameError: name 'response_token_ids' is not defined
+*** ValueError: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+'###Response:'
+'build up.)\n##Response:(Put'
+'build up.)\n##Response:('
+'build up.)\n##Response'
+'.)\n##Response'
+'.)\n###Response'
+'.)\n###Response:('
+[1, 29871, 13, 2277, 29937, 5103, 29901, 13]
+[1, 2799, 582, 1953, 13, 2277, 29937, 4290, 29901, 13, 29966, 11249, 1881, 10541, 29958, 13, 13, 2277, 29937, 5103, 29901, 13, 29966, 11249, 714, 415, 29884, 10541, 29958]
+[1, 2799, 582, 1953, 13, 2277, 29937, 4290, 29901, 13, 29966, 11249, 1881, 10541, 29958, 13, 13, 2277, 29937, 5103, 29901, 13, 29898, 11249, 714, 415, 29884, 10541, 29958]
+[1, 2799, 582, 1953, 13, 2277, 29937, 4290, 29901, 13, 29966, 11249, 1881, 10541, 29958, 13, 13, 2277, 29937, 5103, 29901, 13, 13, 29898, 11249, 714, 415, 29884, 10541, 29958]
+Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py", line 431, in <module>
+    trainer.train() #import inspect; inspect.getfile(trainer.train)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/data/data_collator.py", line 45, in __call__
+    return self.torch_call(features)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/trl/trainer/utils.py", line 109, in torch_call
+    if response_token_ids_start_idx is None:
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/trl/trainer/utils.py", line 109, in torch_call
+    if response_token_ids_start_idx is None:
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+If you suspect this is an IPython 8.14.0 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True

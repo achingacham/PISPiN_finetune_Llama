@@ -1,0 +1,261 @@
+{
+    "os": "Linux-4.15.0-196-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-09-19T01:51:24.856231",
+    "startedAt": "2023-09-19T01:51:24.180754",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataSetFile",
+        "/projects/SFB_A4/A4-ParaphrasesinNoise/PiN.tsv_NoiseID2_lowPhER_to_highPhER",
+        "-dsFile_iCol",
+        "low-SI-para",
+        "-dsFile_oCol",
+        "high-SI-para",
+        "-pPrefix",
+        "For the given input text, generate an acoustically better intelligible paraphrase with 10-12 words\n###Input:",
+        "-pInfix",
+        "\n###Response:"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "achingacham-10968.0-cl16lx.lsv.uni-saarland.de",
+    "username": "achingacham",
+    "executable": "/data/users/achingacham/anaconda3/envs/llama/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 2348.823224999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2058.057,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2774.889,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2248.339,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.38,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2247.466,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2247.481,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2257.528,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2490.839,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2327.31,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2531.458,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2070.663,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2647.837,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2339.092,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2246.911,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2220.686,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2254.715,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2018.876,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2507.659,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2286.011,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2502.553,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2740.474,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2500.18,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2403.036,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2388.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2397.564,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2393.39,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1774.419,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2436.558,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2402.293,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2527.314,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2398.487,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2531.417,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2447.919,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2390.575,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1900.493,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2396.728,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1870.703,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2503.059,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2516.916,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2505.654,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 217.94765090942383,
+        "used": 116.9847183227539
+    },
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34089730048
+        }
+    ],
+    "memory": {
+        "total": 251.41234588623047
+    }
+}

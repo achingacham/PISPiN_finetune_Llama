@@ -1,0 +1,44 @@
+
+  0%|                                                                                                        | 0/500 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py(2650)training_step()
+   2649         import ipdb; ipdb.set_trace()
+-> 2650         if is_sagemaker_mp_enabled():
+   2651             loss_mb = smp_forward_backward(model, inputs, self.args.gradient_accumulation_steps)
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py(2654)training_step()
+   2653
+-> 2654         with self.compute_loss_context_manager():
+   2655             loss = self.compute_loss(model, inputs)
+*** NameError: name 'loss_mb' is not defined
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py(2655)training_step()
+   2654         with self.compute_loss_context_manager():
+-> 2655             loss = self.compute_loss(model, inputs)
+   2656
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py(2654)training_step()
+   2653
+-> 2654         with self.compute_loss_context_manager():
+   2655             loss = self.compute_loss(model, inputs)
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py(2650)training_step()
+   2649         # import ipdb; ipdb.set_trace()
+-> 2650         if is_sagemaker_mp_enabled():
+   2651             loss_mb = smp_forward_backward(model, inputs, self.args.gradient_accumulation_steps)
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/IPython/core/debugger.py", line 145, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1
+Original exception was:
+Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/finetune_llama.py", line 124, in <module>
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2650, in training_step
+    if is_sagemaker_mp_enabled():
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2650, in training_step
+    if is_sagemaker_mp_enabled():
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

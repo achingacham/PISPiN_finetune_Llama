@@ -1,0 +1,205 @@
+
+  0%|                                                                                                        | 0/500 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+loss:  tensor(2.7425, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.6856, device='cuda:0')
+loss:  tensor(3.5212, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.8803, device='cuda:0')
+loss:  tensor(3.2559, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.8140, device='cuda:0')
+loss:  tensor(4.1487, device='cuda:0', grad_fn=<NllLossBackward0>)
+  0%|▏                                                                                               | 1/500 [00:04<39:41,  4.77s/it]
+tr_loss_step tensor(1.0372, device='cuda:0')
+loss:  tensor(3.7917, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.9479, device='cuda:0')
+loss:  tensor(3.4346, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.8586, device='cuda:0')
+loss:  tensor(3.1241, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.7810, device='cuda:0')
+loss:  tensor(2.9287, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.7322, device='cuda:0')
+loss:  tensor(2.6838, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.6710, device='cuda:0')
+loss:  tensor(3.9148, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.9787, device='cuda:0')
+loss:  tensor(2.7422, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.6856, device='cuda:0')
+loss:  tensor(3.2480, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.8120, device='cuda:0')
+loss:  tensor(2.6257, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.6564, device='cuda:0')
+loss:  tensor(2.5415, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.6354, device='cuda:0')
+loss:  tensor(2.4839, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.6210, device='cuda:0')
+loss:  tensor(2.0927, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.5232, device='cuda:0')
+loss:  tensor(2.5516, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.6379, device='cuda:0')
+loss:  tensor(2.3543, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.5886, device='cuda:0')
+loss:  tensor(2.2219, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.5555, device='cuda:0')
+loss:  tensor(1.9784, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.4946, device='cuda:0')
+loss:  tensor(1.9255, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.4814, device='cuda:0')
+
+loss:  tensor(1.0897, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2724, device='cuda:0')
+loss:  tensor(1.4810, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3702, device='cuda:0')
+
+  1%|█▏                                                                                              | 6/500 [00:23<31:15,  3.80s/it]
+tr_loss_step tensor(0.6455, device='cuda:0')
+loss:  tensor(2.1459, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.5365, device='cuda:0')
+loss:  tensor(1.2488, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3122, device='cuda:0')
+loss:  tensor(1.9531, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.4883, device='cuda:0')
+
+  1%|█▎                                                                                              | 7/500 [00:27<31:40,  3.86s/it]
+tr_loss_step tensor(0.4049, device='cuda:0')
+loss:  tensor(1.0516, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2629, device='cuda:0')
+loss:  tensor(1.3040, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3260, device='cuda:0')
+loss:  tensor(1.1914, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2979, device='cuda:0')
+
+  2%|█▌                                                                                              | 8/500 [00:31<31:35,  3.85s/it]
+tr_loss_step tensor(0.2279, device='cuda:0')
+loss:  tensor(2.1054, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.5264, device='cuda:0')
+loss:  tensor(1.0479, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2620, device='cuda:0')
+loss:  tensor(1.0340, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2585, device='cuda:0')
+loss:  tensor(1.2834, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+  2%|█▋                                                                                              | 9/500 [00:35<31:08,  3.81s/it]
+loss:  tensor(1.6968, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.4242, device='cuda:0')
+loss:  tensor(1.2615, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3154, device='cuda:0')
+loss:  tensor(0.8507, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2127, device='cuda:0')
+loss:  tensor(1.2323, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3081, device='cuda:0')
+{'loss': 2.1851, 'learning_rate': 0.000196, 'epoch': 0.53}
+
+  2%|█▉                                                                                             | 10/500 [00:38<30:50,  3.78s/it]
+tr_loss_step tensor(0.2324, device='cuda:0')
+loss:  tensor(1.9404, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.4851, device='cuda:0')
+loss:  tensor(1.0135, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2534, device='cuda:0')
+loss:  tensor(1.3776, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3444, device='cuda:0')
+
+  2%|██                                                                                             | 11/500 [00:42<30:36,  3.76s/it]
+tr_loss_step tensor(0.6450, device='cuda:0')
+loss:  tensor(1.5325, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3831, device='cuda:0')
+loss:  tensor(1.5157, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3789, device='cuda:0')
+loss:  tensor(1.4352, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3588, device='cuda:0')
+
+  2%|██▎                                                                                            | 12/500 [00:46<30:48,  3.79s/it]
+tr_loss_step tensor(0.4724, device='cuda:0')
+loss:  tensor(1.0001, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2500, device='cuda:0')
+loss:  tensor(0.7678, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.1920, device='cuda:0')
+loss:  tensor(0.9654, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2414, device='cuda:0')
+
+  3%|██▍                                                                                            | 13/500 [00:50<31:18,  3.86s/it]
+tr_loss_step tensor(0.3466, device='cuda:0')
+loss:  tensor(0.4099, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.1025, device='cuda:0')
+loss:  tensor(1.5096, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.3774, device='cuda:0')
+loss:  tensor(0.8208, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2052, device='cuda:0')
+loss:  tensor(0.7728, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.1932, device='cuda:0')
+loss:  tensor(1.0233, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2558, device='cuda:0')
+loss:  tensor(1.1280, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step
+loss:  tensor(0.6337, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.1584, device='cuda:0')
+loss:  tensor(0.5682, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.1420, device='cuda:0')
+
+tr_loss_step tensor(0.5449, device='cuda:0')fn=<NllLossBackward0>)
+loss:  tensor(0.8288, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2072, device='cuda:0')
+loss:
+loss:  tensor(1.0686, device='cuda:0', grad_fn=<NllLossBackward0>)
+tr_loss_step tensor(0.2672, device='cuda:0')
+loss:  tensor(1.5886, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.4703, device='cuda:0')fn=<NllLossBackward0>)
+loss:  tensor(0.9979, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+loss:  tensor(0.6310, device='cuda:0', grad_fn=<NllLossBackward0>)
+loss:  tensor(0.6310, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.2279, device='cuda:0')fn=<NllLossBackward0>)
+loss:  tensor(1.5295, device='cuda:0', grad_fn=<NllLossBackward0>)
+
+tr_loss_step tensor(0.1207, device='cuda:0')fn=<NllLossBackward0>)
+  4%|███▌                                                                                           | 19/500 [01:13<30:15,  3.78s/it]Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/finetune_llama.py", line 156, in <module>
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2655, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2682, in compute_loss
+    outputs = model(**inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/peft/peft_model.py", line 922, in forward
+    return self.base_model(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 806, in forward
+    outputs = self.model(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 685, in forward
+    layer_outputs = torch.utils.checkpoint.checkpoint(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 249, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 107, in forward
+    outputs = run_function(*args)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 681, in custom_forward
+    return module(*inputs, output_attentions, None)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 408, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 347, in forward
+    attn_output = torch.matmul(attn_weights, value_states)
+KeyboardInterrupt

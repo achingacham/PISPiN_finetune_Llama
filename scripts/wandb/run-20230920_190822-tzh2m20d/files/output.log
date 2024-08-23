@@ -1,0 +1,483 @@
+
+  0%|                                                                                                        | 0/300 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+  2%|█▉                                                                                              | 6/300 [00:50<41:01,  8.37s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+  3%|██▉                                                                                             | 9/300 [01:20<43:58,  9.07s/it]
+
+
+  4%|███▊                                                                                           | 12/300 [01:45<41:01,  8.55s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.56it/s]
+
+
+
+
+
+
+  6%|█████▋                                                                                         | 18/300 [02:40<40:39,  8.65s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.66it/s]
+
+
+  7%|██████▎                                                                                        | 20/300 [03:02<44:23,  9.51s/it]
+
+
+
+  8%|███████▌                                                                                       | 24/300 [03:35<39:28,  8.58s/it]
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:04<00:00,  1.67it/s]
+
+
+
+
+
+
+ 10%|█████████▌                                                                                     | 30/300 [04:30<38:31,  8.56s/it]
+  0%|                                                                                                          | 0/8 [00:00<?, ?it/s]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.56it/s]
+
+
+
+
+
+
+ 12%|███████████▍                                                                                   | 36/300 [05:24<37:49,  8.60s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+ 13%|████████████▎                                                                                  | 39/300 [05:55<39:52,  9.17s/it]
+
+
+ 14%|█████████████▎                                                                                 | 42/300 [06:19<37:01,  8.61s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.56it/s]
+
+
+
+
+
+
+
+ 16%|███████████████▏                                                                               | 48/300 [07:14<36:05,  8.59s/it]
+
+
+ 75%|█████████████████████████████████████████████████████████████████████████▌                        | 6/8 [00:03<00:01,  1.59it/s]
+
+
+ 17%|███████████████▊                                                                               | 50/300 [07:36<39:33,  9.49s/it]
+
+
+
+ 18%|█████████████████                                                                              | 54/300 [08:09<35:31,  8.66s/it]
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:04<00:00,  1.67it/s]
+
+
+
+
+
+
+ 20%|███████████████████                                                                            | 60/300 [09:04<34:07,  8.53s/it]
+  0%|                                                                                                          | 0/8 [00:00<?, ?it/s]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.56it/s]
+
+
+
+
+
+
+ 22%|████████████████████▉                                                                          | 66/300 [10:04<34:18,  8.80s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.55it/s]
+
+
+
+
+
+ 23%|██████████████████████▏                                                                        | 70/300 [10:43<34:30,  9.00s/it]
+
+ 24%|██████████████████████▊                                                                        | 72/300 [10:59<33:02,  8.69s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+
+
+ 26%|████████████████████████▋                                                                      | 78/300 [11:53<31:18,  8.46s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+ 26%|█████████████████████████                                                                      | 79/300 [12:07<37:08, 10.09s/it]
+
+
+
+
+ 28%|██████████████████████████▌                                                                    | 84/300 [12:49<31:15,  8.68s/it]
+
+
+ 75%|█████████████████████████████████████████████████████████████████████████▌                        | 6/8 [00:03<00:01,  1.59it/s]
+
+
+
+
+
+ 30%|████████████████████████████▏                                                                  | 89/300 [13:35<30:28,  8.66s/it]
+ 30%|████████████████████████████▌                                                                  | 90/300 [13:44<29:54,  8.55s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+
+
+ 32%|██████████████████████████████▍                                                                | 96/300 [14:39<29:06,  8.56s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.55it/s]
+
+
+
+
+ 33%|███████████████████████████████▎                                                               | 99/300 [15:09<30:43,  9.17s/it]
+
+
+ 34%|███████████████████████████████▉                                                              | 102/300 [15:34<28:27,  8.62s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+
+
+ 36%|█████████████████████████████████▊                                                            | 108/300 [16:29<27:38,  8.64s/it]
+
+
+ 75%|█████████████████████████████████████████████████████████████████████████▌                        | 6/8 [00:03<00:01,  1.60it/s]
+
+
+
+ 37%|██████████████████████████████████▍                                                           | 110/300 [16:51<30:26,  9.61s/it]
+
+
+
+ 38%|███████████████████████████████████▋                                                          | 114/300 [17:24<26:38,  8.60s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+
+
+ 40%|█████████████████████████████████████▌                                                        | 120/300 [18:18<25:47,  8.60s/it]
+  0%|                                                                                                          | 0/8 [00:00<?, ?it/s]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.56it/s]
+
+
+
+
+
+
+ 42%|███████████████████████████████████████▍                                                      | 126/300 [19:19<25:43,  8.87s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.55it/s]
+
+
+
+
+
+ 43%|████████████████████████████████████████▋                                                     | 130/300 [19:57<25:30,  9.00s/it]
+
+ 44%|█████████████████████████████████████████▎                                                    | 132/300 [20:14<24:12,  8.65s/it]
+
+
+ 75%|█████████████████████████████████████████████████████████████████████████▌                        | 6/8 [00:03<00:01,  1.59it/s]
+
+
+
+
+
+ 46%|███████████████████████████████████████████▏                                                  | 138/300 [21:08<22:56,  8.50s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+ 46%|███████████████████████████████████████████▌                                                  | 139/300 [21:22<26:51, 10.01s/it]
+
+
+
+
+ 48%|█████████████████████████████████████████████                                                 | 144/300 [22:03<22:09,  8.52s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.56it/s]
+
+
+
+
+
+
+ 50%|██████████████████████████████████████████████▋                                               | 149/300 [22:50<21:54,  8.71s/it]
+ 50%|███████████████████████████████████████████████                                               | 150/300 [22:58<21:46,  8.71s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+
+
+ 52%|████████████████████████████████████████████████▉                                             | 156/300 [23:53<20:42,  8.63s/it]
+
+
+ 75%|█████████████████████████████████████████████████████████████████████████▌                        | 6/8 [00:03<00:01,  1.59it/s]
+
+
+
+
+
+ 53%|██████████████████████████████████████████████████▏                                           | 160/300 [24:32<20:45,  8.90s/it]
+
+ 54%|██████████████████████████████████████████████████▊                                           | 162/300 [24:48<19:47,  8.60s/it]
+
+
+ 62%|█████████████████████████████████████████████████████████████▎                                    | 5/8 [00:02<00:01,  1.65it/s]
+
+
+
+
+
+ 56%|████████████████████████████████████████████████████▋                                         | 168/300 [25:43<18:48,  8.55s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.55it/s]
+
+
+ 56%|████████████████████████████████████████████████████▉                                         | 169/300 [25:57<21:55, 10.04s/it]
+
+
+
+
+
+ 58%|██████████████████████████████████████████████████████▌                                       | 174/300 [26:38<17:59,  8.57s/it]
+
+ 75%|█████████████████████████████████████████████████████████████████████████▌                        | 6/8 [00:03<00:01,  1.59it/s]
+
+
+
+
+
+
+ 60%|████████████████████████████████████████████████████████                                      | 179/300 [27:25<17:30,  8.68s/it]
+ 60%|████████████████████████████████████████████████████████▍                                     | 180/300 [27:33<17:08,  8.57s/it]
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:04<00:00,  1.67it/s]
+
+
+
+
+
+
+ 62%|██████████████████████████████████████████████████████████▎                                   | 186/300 [28:37<17:07,  9.02s/it]
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:04<00:00,  1.67it/s]
+
+
+
+
+ 63%|███████████████████████████████████████████████████████████▏                                  | 189/300 [29:07<17:05,  9.24s/it]
+
+
+ 64%|████████████████████████████████████████████████████████████▏                                 | 192/300 [29:32<15:24,  8.56s/it]
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████▊            | 7/8 [00:04<00:00,  1.55it/s]
+
+
+
+
+
+ 65%|█████████████████████████████████████████████████████████████▍                                | 196/300 [30:10<15:28,  8.93s/it]
+Program interrupted. (Use 'cont' to resume).
+> /data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py(383)is_on_gpu()
+    382     gpu_ids = set()
+--> 383     for t in tensors:
+ 65%|█████████████████████████████████████████████████████████████▍                                | 196/300 [30:10<15:28,  8.93s/it]Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py", line 475, in <module>
+    #ipdb.set_trace()
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2655, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2682, in compute_loss
+    outputs = model(**inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/peft/peft_model.py", line 922, in forward
+    return self.base_model(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 806, in forward
+    outputs = self.model(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 685, in forward
+    layer_outputs = torch.utils.checkpoint.checkpoint(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 249, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 107, in forward
+    outputs = run_function(*args)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 681, in custom_forward
+    return module(*inputs, output_attentions, None)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 421, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 216, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 248, in forward
+    out = bnb.matmul_4bit(x, self.weight.t(), bias=bias, quant_state=self.weight.quant_state)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 579, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 516, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, state).to(A.dtype).t(), bias)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py", line 914, in dequantize_4bit
+    is_on_gpu([A, absmax, out])
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py", line 383, in is_on_gpu
+    for t in tensors:
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py", line 383, in is_on_gpu
+    for t in tensors:
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py", line 475, in <module>
+    #ipdb.set_trace()
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2655, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2682, in compute_loss
+    outputs = model(**inputs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/peft/peft_model.py", line 922, in forward
+    return self.base_model(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 806, in forward
+    outputs = self.model(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 685, in forward
+    layer_outputs = torch.utils.checkpoint.checkpoint(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 249, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 107, in forward
+    outputs = run_function(*args)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 681, in custom_forward
+    return module(*inputs, output_attentions, None)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 421, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 216, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 248, in forward
+    out = bnb.matmul_4bit(x, self.weight.t(), bias=bias, quant_state=self.weight.quant_state)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 579, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 516, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, state).to(A.dtype).t(), bias)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py", line 914, in dequantize_4bit
+    is_on_gpu([A, absmax, out])
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py", line 383, in is_on_gpu
+    for t in tensors:
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/bitsandbytes/functional.py", line 383, in is_on_gpu
+    for t in tensors:
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+If you suspect this is an IPython 8.14.0 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True

@@ -1,0 +1,40 @@
+
+  0%|                                                                                                        | 0/300 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+  2%|█▉                                                                                              | 6/300 [00:50<41:00,  8.37s/it]Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py", line 473, in <module>
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1901, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2226, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2933, in evaluate
+    eval_dataloader = self.get_eval_dataloader(eval_dataset)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 890, in get_eval_dataloader
+    raise ValueError("Trainer: evaluation requires an eval_dataset.")
+ValueError: Trainer: evaluation requires an eval_dataset.
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/wandb/sdk/lib/exit_hooks.py", line 54, in exc_handler
+    self._orig_excepthook(exc_type, exc, tb)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/IPython/core/debugger.py", line 145, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1
+Original exception was:
+Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py", line 473, in <module>
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1901, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2226, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 2933, in evaluate
+    eval_dataloader = self.get_eval_dataloader(eval_dataset)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 890, in get_eval_dataloader
+    raise ValueError("Trainer: evaluation requires an eval_dataset.")
+ValueError: Trainer: evaluation requires an eval_dataset.

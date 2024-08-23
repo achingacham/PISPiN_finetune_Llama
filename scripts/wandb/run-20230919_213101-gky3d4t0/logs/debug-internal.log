@@ -1,0 +1,425 @@
+2023-09-19 21:31:01,316 INFO    StreamThr :438 [internal.py:wandb_internal():86] W&B internal server running at pid: 438, started at: 2023-09-19 21:31:01.315215
+2023-09-19 21:31:01,317 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status
+2023-09-19 21:31:01,353 INFO    WriterThread:438 [datastore.py:open_for_write():85] open: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/run-gky3d4t0.wandb
+2023-09-19 21:31:01,355 DEBUG   SenderThread:438 [sender.py:send():379] send: header
+2023-09-19 21:31:01,355 DEBUG   SenderThread:438 [sender.py:send():379] send: run
+2023-09-19 21:31:02,230 INFO    SenderThread:438 [dir_watcher.py:__init__():211] watching files in: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files
+2023-09-19 21:31:02,230 INFO    SenderThread:438 [sender.py:_start_run_threads():1121] run started: gky3d4t0 with start time 1695159061.350611
+2023-09-19 21:31:02,231 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: summary_record
+2023-09-19 21:31:02,232 INFO    SenderThread:438 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-19 21:31:02,239 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: check_version
+2023-09-19 21:31:02,239 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: check_version
+2023-09-19 21:31:02,336 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: run_start
+2023-09-19 21:31:02,340 DEBUG   HandlerThread:438 [system_info.py:__init__():31] System info init
+2023-09-19 21:31:02,340 DEBUG   HandlerThread:438 [system_info.py:__init__():46] System info init done
+2023-09-19 21:31:02,340 INFO    HandlerThread:438 [system_monitor.py:start():181] Starting system monitor
+2023-09-19 21:31:02,341 INFO    SystemMonitor:438 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-19 21:31:02,341 INFO    HandlerThread:438 [system_monitor.py:probe():201] Collecting system info
+2023-09-19 21:31:02,342 INFO    SystemMonitor:438 [interfaces.py:start():190] Started cpu monitoring
+2023-09-19 21:31:02,342 INFO    SystemMonitor:438 [interfaces.py:start():190] Started disk monitoring
+2023-09-19 21:31:02,343 INFO    SystemMonitor:438 [interfaces.py:start():190] Started gpu monitoring
+2023-09-19 21:31:02,344 INFO    SystemMonitor:438 [interfaces.py:start():190] Started memory monitoring
+2023-09-19 21:31:02,345 INFO    SystemMonitor:438 [interfaces.py:start():190] Started network monitoring
+2023-09-19 21:31:02,384 DEBUG   HandlerThread:438 [system_info.py:probe():195] Probing system
+2023-09-19 21:31:02,387 DEBUG   HandlerThread:438 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-19 21:31:02,387 DEBUG   HandlerThread:438 [system_info.py:probe():240] Probing system done
+2023-09-19 21:31:02,387 DEBUG   HandlerThread:438 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-196-generic-x86_64-with-glibc2.31', 'python': '3.10.4', 'heartbeatAt': '2023-09-19T21:31:02.384660', 'startedAt': '2023-09-19T21:31:01.256421', 'docker': None, 'cuda': None, 'args': ('--dataSetFile', '/projects/SFB_A4/llama-2/llama-ft-models/09-18-2023_03:50:51/dataset.tsv', '-pPrefix', 'For the given input text, generate an acoustically better intelligible paraphrase with 10-12 words\n###Input:', '-pInfix', '\n###Response:'), 'state': 'running', 'program': '/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py', 'codePath': 'sft_llama.py', 'host': 'achingacham-11029.0-cl16lx.lsv.uni-saarland.de', 'username': 'achingacham', 'executable': '/data/users/achingacham/anaconda3/envs/llama/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2452.499175, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2642.81, 'min': 0.0, 'max': 0.0}, {'current': 1879.707, 'min': 0.0, 'max': 0.0}, {'current': 2657.052, 'min': 0.0, 'max': 0.0}, {'current': 2681.147, 'min': 0.0, 'max': 0.0}, {'current': 2789.257, 'min': 0.0, 'max': 0.0}, {'current': 2246.698, 'min': 0.0, 'max': 0.0}, {'current': 2378.5, 'min': 0.0, 'max': 0.0}, {'current': 1716.948, 'min': 0.0, 'max': 0.0}, {'current': 2542.463, 'min': 0.0, 'max': 0.0}, {'current': 2364.416, 'min': 0.0, 'max': 0.0}, {'current': 2699.121, 'min': 0.0, 'max': 0.0}, {'current': 2419.417, 'min': 0.0, 'max': 0.0}, {'current': 2247.724, 'min': 0.0, 'max': 0.0}, {'current': 2346.708, 'min': 0.0, 'max': 0.0}, {'current': 2252.788, 'min': 0.0, 'max': 0.0}, {'current': 2577.181, 'min': 0.0, 'max': 0.0}, {'current': 2253.05, 'min': 0.0, 'max': 0.0}, {'current': 2427.592, 'min': 0.0, 'max': 0.0}, {'current': 2253.73, 'min': 0.0, 'max': 0.0}, {'current': 2364.015, 'min': 0.0, 'max': 0.0}, {'current': 2724.996, 'min': 0.0, 'max': 0.0}, {'current': 2667.33, 'min': 0.0, 'max': 0.0}, {'current': 2751.742, 'min': 0.0, 'max': 0.0}, {'current': 2495.506, 'min': 0.0, 'max': 0.0}, {'current': 2502.048, 'min': 0.0, 'max': 0.0}, {'current': 2397.056, 'min': 0.0, 'max': 0.0}, {'current': 2533.421, 'min': 0.0, 'max': 0.0}, {'current': 2388.231, 'min': 0.0, 'max': 0.0}, {'current': 2647.039, 'min': 0.0, 'max': 0.0}, {'current': 2398.829, 'min': 0.0, 'max': 0.0}, {'current': 2777.51, 'min': 0.0, 'max': 0.0}, {'current': 2505.418, 'min': 0.0, 'max': 0.0}, {'current': 2396.93, 'min': 0.0, 'max': 0.0}, {'current': 2450.72, 'min': 0.0, 'max': 0.0}, {'current': 2401.025, 'min': 0.0, 'max': 0.0}, {'current': 2575.197, 'min': 0.0, 'max': 0.0}, {'current': 2403.148, 'min': 0.0, 'max': 0.0}, {'current': 2545.394, 'min': 0.0, 'max': 0.0}, {'current': 2402.227, 'min': 0.0, 'max': 0.0}, {'current': 2395.876, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 217.94765090942383, 'used': 119.83761596679688}, 'gpu': 'Tesla V100-PCIE-32GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-PCIE-32GB', 'memory_total': 34089730048}], 'memory': {'total': 251.41234588623047}}
+2023-09-19 21:31:02,388 INFO    HandlerThread:438 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-19 21:31:02,388 INFO    HandlerThread:438 [system_monitor.py:probe():214] Publishing system info
+2023-09-19 21:31:02,388 DEBUG   HandlerThread:438 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-19 21:31:02,389 DEBUG   HandlerThread:438 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-19 21:31:02,389 DEBUG   HandlerThread:438 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-19 21:31:03,234 INFO    Thread-12 :438 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/requirements.txt
+2023-09-19 21:31:03,234 INFO    Thread-12 :438 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/wandb-summary.json
+2023-09-19 21:31:03,234 INFO    Thread-12 :438 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/conda-environment.yaml
+2023-09-19 21:31:19,789 DEBUG   HandlerThread:438 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-19 21:31:19,792 INFO    HandlerThread:438 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-19 21:31:19,852 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:19,853 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-19 21:31:19,853 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:19,853 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-19 21:31:19,853 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:19,853 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-19 21:31:19,854 DEBUG   SenderThread:438 [sender.py:send():379] send: files
+2023-09-19 21:31:19,854 INFO    SenderThread:438 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-19 21:31:19,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:31:19,862 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:31:20,193 DEBUG   SenderThread:438 [sender.py:send():379] send: telemetry
+2023-09-19 21:31:20,194 DEBUG   SenderThread:438 [sender.py:send():379] send: config
+2023-09-19 21:31:20,195 DEBUG   SenderThread:438 [sender.py:send():379] send: metric
+2023-09-19 21:31:20,195 DEBUG   SenderThread:438 [sender.py:send():379] send: telemetry
+2023-09-19 21:31:20,195 DEBUG   SenderThread:438 [sender.py:send():379] send: metric
+2023-09-19 21:31:20,195 WARNING SenderThread:438 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2023-09-19 21:31:20,246 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/conda-environment.yaml
+2023-09-19 21:31:20,246 INFO    Thread-12 :438 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:31:20,246 INFO    Thread-12 :438 [dir_watcher.py:_on_file_created():271] file/dir created: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/wandb-metadata.json
+2023-09-19 21:31:20,514 INFO    wandb-upload_0:438 [upload_job.py:push():131] Uploaded file /tmp/tmpjc4bms_9wandb/zm4c8iuh-wandb-metadata.json
+2023-09-19 21:31:21,827 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:22,249 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:31:23,251 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:31:26,828 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:31,834 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:32,257 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/config.yaml
+2023-09-19 21:31:34,861 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:31:34,862 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:31:37,745 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:39,263 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:31:42,746 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:48,702 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:49,270 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:31:49,861 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:31:49,862 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:31:54,132 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:31:59,133 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:02,345 DEBUG   SystemMonitor:438 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-19 21:32:02,347 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:32:04,348 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:04,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:32:04,862 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:32:10,094 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:15,095 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:19,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:32:19,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:32:20,157 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:25,158 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:30,160 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:32,349 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:32:34,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:32:34,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:32:35,181 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:40,182 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:45,183 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:49,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:32:49,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:32:50,279 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:32:55,330 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:32:55,990 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:00,991 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:02,351 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:33:04,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:33:04,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:33:06,124 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:11,342 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:33:11,758 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:16,759 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:19,862 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:33:19,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:33:22,082 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:27,083 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:32,084 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:32,353 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:33:34,863 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:33:34,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:33:37,101 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:42,103 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:47,104 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:49,863 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:33:49,863 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:33:52,107 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:33:57,108 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:02,109 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:02,355 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:34:04,865 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:34:04,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:34:07,163 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:12,164 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:17,165 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:19,863 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:34:19,864 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:34:22,920 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:25,401 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:34:27,921 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:32,358 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:34:33,359 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:34,863 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:34:34,864 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:34:39,130 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:44,132 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:49,132 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:49,863 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:34:49,864 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:34:54,168 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:34:59,168 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:02,360 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:35:03,427 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:35:04,361 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:04,863 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:35:04,864 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:35:10,108 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:15,109 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:17,438 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:35:19,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:35:19,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:35:20,463 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:25,464 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:30,465 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:32,362 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:35:34,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:35:34,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:35:36,089 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:41,089 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:45,471 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:35:46,872 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:49,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:35:49,864 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:35:52,122 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:35:57,123 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:02,124 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:02,363 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:36:04,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:36:04,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:36:08,117 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:11,494 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:36:13,256 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:18,257 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:19,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:36:19,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:36:24,140 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:29,141 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:31,508 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:36:32,365 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:36:34,366 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:34,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:36:34,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:36:40,077 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:45,078 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:49,864 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:36:49,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:36:50,166 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:36:55,167 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:00,168 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:02,369 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:37:04,865 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:37:04,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:37:05,184 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:10,185 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:15,186 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:19,865 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:37:19,865 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:37:20,208 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:23,546 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:37:25,316 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:30,317 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:32,369 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:37:34,865 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:37:34,866 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:37:36,101 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:41,102 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:46,102 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:49,865 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:37:49,866 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:37:51,138 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:37:56,139 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:01,140 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:02,370 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:38:04,865 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:38:04,866 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:38:07,091 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:12,092 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:17,093 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:19,866 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:38:19,866 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:38:22,161 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:27,162 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:32,163 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:32,372 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:38:34,866 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:38:34,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:38:37,203 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:42,204 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:47,205 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:49,866 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:38:49,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:38:53,172 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:38:58,173 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:02,374 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:39:03,375 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:04,866 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:39:04,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:39:09,140 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:14,141 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:19,142 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:19,866 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:39:19,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:39:24,986 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:27,633 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:39:29,987 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:32,377 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:39:34,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:39:34,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:39:35,099 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:40,100 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:45,101 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:49,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:39:49,868 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:39:50,141 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:39:55,142 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:00,143 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:02,379 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:40:04,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:40:04,868 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:40:06,118 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:11,119 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:16,120 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:19,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:40:19,867 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:40:22,102 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:27,103 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:32,103 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:32,380 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:40:34,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:40:34,868 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:40:37,654 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:37,683 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:40:42,655 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:47,656 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:49,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:40:49,868 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:40:53,138 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:40:58,139 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:02,382 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:41:03,383 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:04,867 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:41:04,868 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:41:05,724 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:41:09,116 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:14,117 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:19,118 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:19,868 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-19 21:41:19,868 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: stop_status
+2023-09-19 21:41:24,135 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:29,136 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:31,248 DEBUG   SenderThread:438 [sender.py:send():379] send: exit
+2023-09-19 21:41:31,248 INFO    SenderThread:438 [sender.py:send_exit():584] handling exit code: 0
+2023-09-19 21:41:31,249 INFO    SenderThread:438 [sender.py:send_exit():586] handling runtime: 628
+2023-09-19 21:41:31,250 INFO    SenderThread:438 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-19 21:41:31,250 INFO    SenderThread:438 [sender.py:send_exit():592] send defer
+2023-09-19 21:41:31,251 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,251 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-19 21:41:31,251 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,251 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-19 21:41:31,251 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 1
+2023-09-19 21:41:31,251 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,251 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-19 21:41:31,251 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,252 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-19 21:41:31,252 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 2
+2023-09-19 21:41:31,252 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,252 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-19 21:41:31,252 INFO    HandlerThread:438 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-19 21:41:31,252 DEBUG   SystemMonitor:438 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-19 21:41:31,253 DEBUG   SystemMonitor:438 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-19 21:41:31,255 INFO    HandlerThread:438 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-19 21:41:31,255 INFO    HandlerThread:438 [interfaces.py:finish():202] Joined disk monitor
+2023-09-19 21:41:31,283 INFO    HandlerThread:438 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-19 21:41:31,283 INFO    HandlerThread:438 [interfaces.py:finish():202] Joined memory monitor
+2023-09-19 21:41:31,283 INFO    HandlerThread:438 [interfaces.py:finish():202] Joined network monitor
+2023-09-19 21:41:31,284 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,285 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-19 21:41:31,285 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 3
+2023-09-19 21:41:31,285 DEBUG   SenderThread:438 [sender.py:send():379] send: stats
+2023-09-19 21:41:31,285 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,286 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-19 21:41:31,286 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,286 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-19 21:41:31,286 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 4
+2023-09-19 21:41:31,287 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,287 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-19 21:41:31,287 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,287 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-19 21:41:31,287 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 5
+2023-09-19 21:41:31,287 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,287 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-19 21:41:31,287 DEBUG   SenderThread:438 [sender.py:send():379] send: summary
+2023-09-19 21:41:31,289 INFO    SenderThread:438 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-19 21:41:31,289 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,289 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-19 21:41:31,289 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 6
+2023-09-19 21:41:31,289 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,290 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-19 21:41:31,290 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,290 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-19 21:41:31,290 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 7
+2023-09-19 21:41:31,290 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: status_report
+2023-09-19 21:41:31,290 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:31,290 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-19 21:41:31,290 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:31,291 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-19 21:41:31,743 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:41:31,743 INFO    Thread-12 :438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/wandb-summary.json
+2023-09-19 21:41:32,248 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-19 21:41:33,586 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 8
+2023-09-19 21:41:33,586 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: poll_exit
+2023-09-19 21:41:33,586 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:33,587 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-19 21:41:33,587 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:33,587 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-19 21:41:33,588 INFO    SenderThread:438 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-19 21:41:33,590 INFO    SenderThread:438 [job_builder.py:_get_source_type():411] no source found
+2023-09-19 21:41:33,590 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 9
+2023-09-19 21:41:33,590 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:33,590 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-19 21:41:33,591 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:33,591 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-19 21:41:33,591 INFO    SenderThread:438 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-19 21:41:33,744 INFO    SenderThread:438 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:41:33,745 INFO    SenderThread:438 [dir_watcher.py:finish():388] scan: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files
+2023-09-19 21:41:33,745 INFO    SenderThread:438 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/requirements.txt requirements.txt
+2023-09-19 21:41:33,746 INFO    SenderThread:438 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/conda-environment.yaml conda-environment.yaml
+2023-09-19 21:41:33,751 INFO    SenderThread:438 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/config.yaml config.yaml
+2023-09-19 21:41:33,752 INFO    SenderThread:438 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/wandb-metadata.json wandb-metadata.json
+2023-09-19 21:41:33,752 INFO    SenderThread:438 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log output.log
+2023-09-19 21:41:33,762 INFO    SenderThread:438 [dir_watcher.py:finish():402] scan save: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/wandb-summary.json wandb-summary.json
+2023-09-19 21:41:33,763 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 10
+2023-09-19 21:41:33,768 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:33,772 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-19 21:41:33,772 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:33,772 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-19 21:41:33,772 INFO    SenderThread:438 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-19 21:41:34,225 INFO    wandb-upload_0:438 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/requirements.txt
+2023-09-19 21:41:34,260 INFO    wandb-upload_1:438 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/conda-environment.yaml
+2023-09-19 21:41:34,265 INFO    wandb-upload_4:438 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/wandb-summary.json
+2023-09-19 21:41:34,269 INFO    wandb-upload_3:438 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/output.log
+2023-09-19 21:41:34,274 INFO    wandb-upload_2:438 [upload_job.py:push():131] Uploaded file /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/files/config.yaml
+2023-09-19 21:41:34,474 INFO    Thread-11 (_thread_body):438 [sender.py:transition_state():612] send defer: 11
+2023-09-19 21:41:34,475 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:34,475 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-19 21:41:34,475 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:34,475 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-19 21:41:34,475 INFO    SenderThread:438 [file_pusher.py:join():164] waiting for file pusher
+2023-09-19 21:41:34,476 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 12
+2023-09-19 21:41:34,476 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:34,476 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-19 21:41:34,476 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:34,476 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-19 21:41:34,476 INFO    SenderThread:438 [file_stream.py:finish():593] file stream finish called
+2023-09-19 21:41:34,928 INFO    SenderThread:438 [file_stream.py:finish():597] file stream finish is done
+2023-09-19 21:41:34,928 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 13
+2023-09-19 21:41:34,928 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:34,928 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-19 21:41:34,929 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:34,929 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-19 21:41:34,929 INFO    SenderThread:438 [sender.py:transition_state():612] send defer: 14
+2023-09-19 21:41:34,929 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: defer
+2023-09-19 21:41:34,929 DEBUG   SenderThread:438 [sender.py:send():379] send: final
+2023-09-19 21:41:34,929 INFO    HandlerThread:438 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-19 21:41:34,929 DEBUG   SenderThread:438 [sender.py:send():379] send: footer
+2023-09-19 21:41:34,930 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: defer
+2023-09-19 21:41:34,930 INFO    SenderThread:438 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-19 21:41:34,930 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-19 21:41:34,931 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: poll_exit
+2023-09-19 21:41:34,931 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: server_info
+2023-09-19 21:41:34,931 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: server_info
+2023-09-19 21:41:34,935 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-19 21:41:34,936 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-19 21:41:34,936 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: job_info
+2023-09-19 21:41:35,130 DEBUG   SenderThread:438 [sender.py:send_request():406] send_request: job_info
+2023-09-19 21:41:35,131 INFO    MainThread:438 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-19 21:41:35,131 INFO    MainThread:438 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-19 21:41:35,131 INFO    MainThread:438 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-09-19 21:41:35,132 DEBUG   HandlerThread:438 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-19 21:41:35,132 INFO    HandlerThread:438 [handler.py:finish():857] shutting down handler
+2023-09-19 21:41:35,937 INFO    WriterThread:438 [datastore.py:close():294] close: /nethome/achingacham/PycharmProjects/LLaMA/scripts/wandb/run-20230919_213101-gky3d4t0/run-gky3d4t0.wandb
+2023-09-19 21:41:36,131 INFO    SenderThread:438 [sender.py:finish():1552] shutting down sender
+2023-09-19 21:41:36,131 INFO    SenderThread:438 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-19 21:41:36,131 INFO    SenderThread:438 [file_pusher.py:join():164] waiting for file pusher

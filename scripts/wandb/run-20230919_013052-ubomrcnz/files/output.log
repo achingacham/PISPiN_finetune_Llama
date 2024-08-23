@@ -1,0 +1,27 @@
+  0%|                                                                                                        | 0/500 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Traceback (most recent call last):
+  File "/nethome/achingacham/PycharmProjects/LLaMA/scripts/sft_llama.py", line 422, in <module>
+    trainer.train() #import inspect; inspect.getfile(trainer.train)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/accelerate/data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/transformers/data/data_collator.py", line 45, in __call__
+    return self.torch_call(features)
+  File "/data/users/achingacham/anaconda3/envs/llama/lib/python3.10/site-packages/trl/trainer/utils.py", line 110, in torch_call
+    raise RuntimeError(
+RuntimeError: Could not find response key [2277, 29937, 6466, 2177, 481, 1092, 559, 29901, 29871] in token IDs tensor([    1,  1152,   278,  2183,  1881,  1426, 29892,  5706,   385,  1274,
+        18291,  1711,  2253, 13052,  1821,   610,   481,  1092,   559,   411,
+        29871, 29896, 29900, 29899, 29896, 29906,  3838,    13,  2277, 29937,
+         4290, 29901,   474,  1348,   372,   471,   263,  2217,  4688,   760,
+          310,   278, 11801,    13,  2277, 29937,  6466,  2177,   481,  1092,
+          559, 29901,   474,  4658,   372,   471,  4688,   297,   278, 11801,
+         -100,  -100,  -100,  -100,  -100,  -100])
